@@ -1,0 +1,92 @@
+{
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0652057",
+					"Description": "CAB 0X1 STRIP 65 LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2026-05-30",
+					"ManufactureDate": "2026-04-30",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "richard.melton@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "1",
+					"Quantity": "1",
+					"AdjustedWeight": "85.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "M71071",
+					"ReasonCodeId": "W",
+					"ReferenceText": "85566",
+					"SecondaryReferenceText": "100",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeightType": "ADD",
+					"CreatedTimestamp": "2026-05-11T15:55:46.279",
+					"UpdatedTimestamp": "2026-05-11T15:57:05.914",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-05-11T15:55:45.630"
+				},
+				"TransactionNumber": "7785149456203234699",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-05-11T15:55:45.630",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "31acec70-3921-46d6-83cf-3841465405ad",
+		"TotalPages": 1
+	}
