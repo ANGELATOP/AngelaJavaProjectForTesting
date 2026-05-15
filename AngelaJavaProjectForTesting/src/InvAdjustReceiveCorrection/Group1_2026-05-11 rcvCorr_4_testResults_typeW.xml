@@ -1,0 +1,22 @@
+<INVENTORY_ADJUST>
+	<INVENTORY_ADJUST_IFD>
+		<SITCOD>00</SITCOD>
+		<TRNNUM>7785132178103054315</TRNNUM>
+		<PRTNUM>0520726</PRTNUM>
+		<PRT_CLIENT_ID>----</PRT_CLIENT_ID>
+		<ORGCOD></ORGCOD>
+		<REVLVL></REVLVL>
+		<LOTNUM></LOTNUM>
+		<ADJQTY>-2</ADJQTY>
+		<REACOD>W</REACOD>
+		<HSTACC></HSTACC>
+		<STKUOM>CS</STKUOM>
+		<INVSTS>A</INVSTS>
+		<CATCH_UNTTYP></CATCH_UNTTYP>
+		<CATCH_QTY testingComment="calculate qty with manhattan elements SecondaryReferenceText and InventoryAdjustmentType">-135</CATCH_QTY>
+		<ADJ_REF1  testingComment="manhattan element ReferenceText">94428                </ADJ_REF1>
+		<ADJ_REF2  testingComment="query AWG table to get poLineNbr">001                 </ADJ_REF2>
+		<WH_ID></WH_ID>
+		<TRNDTE>20260515164641</TRNDTE>
+	</INVENTORY_ADJUST_IFD>
+</INVENTORY_ADJUST>

@@ -1,0 +1,9 @@
+
+The message in the soapUi.json is reason code "R" means to check and see if
+the item is a "random weight" item.  
+
+If so, create a output message for R and
+a output message for W.  
+
+If not, only create output message for R.
+
