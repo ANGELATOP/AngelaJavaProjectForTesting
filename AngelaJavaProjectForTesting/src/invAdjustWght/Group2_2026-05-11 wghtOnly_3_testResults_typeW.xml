@@ -13,9 +13,9 @@
 		<STKUOM>CS</STKUOM>
 		<INVSTS>A</INVSTS>
 		<CATCH_UNTTYP></CATCH_UNTTYP>
-		<CATCH_QTY>100</CATCH_QTY>
-		<ADJ_REF1>85566</ADJ_REF1>
-		<ADJ_REF2>003</ADJ_REF2>
+		<CATCH_QTY testingComment="calculate qty with manhattan elements SecondaryReferenceText and InventoryAdjustmentType">100</CATCH_QTY>
+		<ADJ_REF1  testingComment="manhattan element ReferenceText">85566   </ADJ_REF1>
+		<ADJ_REF2  testingComment="query AWG table to get poLineNbr">003    </ADJ_REF2>
 		<WH_ID></WH_ID>
 		<TRNDTE>20260515145115</TRNDTE>
 	</INVENTORY_ADJUST_IFD>
