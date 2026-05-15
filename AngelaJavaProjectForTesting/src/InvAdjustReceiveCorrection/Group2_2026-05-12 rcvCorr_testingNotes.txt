@@ -1,0 +1,3 @@
+
+Item is not random weight item.
+Don't create a W message, only the R message.

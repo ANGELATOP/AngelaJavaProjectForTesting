@@ -1,0 +1,130 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0630871",
+					"Description": "PF N ON PRKBUTT 1PC 18LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2026-08-13",
+					"ManufactureDate": "2026-04-15",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "2",
+					"Quantity": "2",
+					"AdjustedWeight": "165.224",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "L00043916586",
+					"LocationId": "M72114H",
+					"ReasonCodeId": "R",
+					"ReferenceText": "94428",
+					"SecondaryReferenceText": "75",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-05-12T22:18:15.921",
+					"UpdatedTimestamp": "2026-05-12T22:21:29.290",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-05-12T22:18:15.566"
+				},
+				"TransactionNumber": "7786242955514283613",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-05-12T22:18:15.566",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "8ce281fa-d947-4611-8202-dcca5be85778",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "AWG-L1",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/bnLj7iZz8jxB/O1J5qhg2bA1PUTtzmMrpO6Yaj8suGsOghppBdO2Ia5kG0mSlct+46Wr6S/PFEZ9XoA3//QLiGnfENyec6pF0p/uUxT+kBOg4Z277+1R0KZiJBsqJVIC767wNfW5zaMdmjwuQ9R+x4jcH++eTy72g8inUlhpVaG/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/j25qQFnriuwlrxc3lPEKGJxHkBZ7HZ2nICgXIi4GKwog1AqolW52XR0HQ3A2Bu4msMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIQ9FjBV9fuz2UMO5vPO6ffv/Gpl0h7/c5fkQZd2grZ0Cz5c7AZyH48kabnCeRoxfXC3hN287vwtDd3TsMB/9RDzRlqVn5E6drAjGpcOdpMv0TqAW+mSqhFQkI0msuD8GflWt7YF5v09v/25KK9fAunQGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93VLj1KEKGxBerPqLdNwPi7cPusRhar61ust2noCtcb2c4wa7UeIDiahe2tOg9GZp0zpkS3lB1Gdz+oXKkYw8aJtqEdfw65dsPPcrqHeMJ96ayp4n4Oh3F53PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsyYCREyaK61s+Ir5am9omVRLaUB9Q7He/9sNOvX117KRjhl0dsuOJtqq2arSr7zlRuQXAh5JZMxwNzHyfXe4erCLERtINBqmXwzWWlzpi/gNB3uqFpDxsCwuTVw9iusv21oD1kMHXJrrhg0e4plKDX/+zuOywik0Ecpf1fSbx7TUPSqHaRlNVt94ED4vct++GDccl/olXNDBT+8MP6IKmlyinmrC0zvpPCqmFtZsBgz7+94M3pL2mRgcFCoRKEvPVV8gGWemjNnCMgRd6v0MzgIJkeheTZ/7SgH5Wugo7yEfbDVpPVvWAdQ9CSIH3K1NrYO0/tThwBHKwx87yeDkrVP9KRLtXzN1Efr0ITw7sSyAkHRgh1cqY9ykyDqezypQ/8skiluEHZPiA0urXYlxt0DvN2KRImJiyQT6WnpMEQf+7l4AeoI601yagCE0egSj9UcTBZnlW24Vi5zIwH1q78rg==",
+		"msg_submission_time": "2026-05-12T22:21:29.341",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-05-12T22:21:29.341Z",
+		"SPAN_ID": "a2447d70a203acc2",
+		"APP_ID_TRACE": "com-manh-cp-pix-all-com-manh-cp-pix-7767d69d57-bmbhk",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "AWG-L1",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-all-com-manh-cp-pix-7767d69d57-bmbhk",
+		"TRACE_ID": "3ac6cb227a661bba",
+		"ADDITIONAL_ATTRIBUTES": "{\"ActivityTrackingNameSpace~ActivityDateTime\":\"2026-05-12T22:18:15.566\",\"APIFlowTracing~x-activitystream-url\":\"/api/dcinventory/inventory/adjustInventory/\",\"APIFlowTracing~rootOriginated\":\"/inventory/adjustInventory/\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-jeremy.johnson@awginc.com 1778624295200\",\"ActivityTrackingNameSpace~ReasonCodeId\":\"R\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"ActivityTrackingNameSpace~AdjQtyAndReasonCodePopulatedInContext\":true,\"ActivityTrackingNameSpace~ComponentName\":\"Component_UI\",\"componentScopedOrganization~relevantOrganizationId\":\"864043dd958a9df33a9fec37af5e6cb0e8c1099e31d839cbad42ffd4b68f1b74\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"ActivityTrackingNameSpace~AdjustedQuantity\":-2,\"ActivityTrackingNameSpace~TransactionId\":\"UIInventoryAdjustment\",\"activitystream~activityStreamContext\":{\"properties\":{}},\"APIFlowTracing~PreviousComponentSequencePrefix\":\"0\",\"activitystream~x-extension-handler-elapsed-time\":92,\"APIFlowTracing~url-pattern\":\"/api/dcinventory/inventory/adjustInventory/\",\"TXN_IDENTIFIERS~TXN_ID\":\"7786242952970179242\",\"activitystream~x-activity-stream-request-id\":\"eda02b5fecc2e87a81f1cfc5df2814a9\",\"ActivityTrackingNameSpace~TransactionTypeId\":\"Adjust_Inventory\",\"APIFlowTracing~trimmed-url\":\"/inventory/adjustInventory/\",\"APIFlowTracing~root-url-pattern\":\"/api/dcinventory/inventory/adjustInventory/\"}",
+		"TenantId": "awgrssf11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "659122132080846905413821019270550226",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}
