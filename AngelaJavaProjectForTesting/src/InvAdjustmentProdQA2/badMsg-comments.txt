@@ -44,9 +44,7 @@ On Thu, May 28, 2026 at 11:53 AM Erick Fauscette <erick.fauscette@awginc.com> 
 Tested this.
 
 The positive and application of the condition code worked. It was message ID : 62511262317229268271932151196529134
-
-  The negative and remove of the condition code did not work. It was message ID  
-3375865745229331271523993255825623
+The negative and remove of the condition code did not work. It was message ID: 3375865745229331271523993255825623
 
 When can you capture the messages and we can discuss what is happening and what should happen.
 
