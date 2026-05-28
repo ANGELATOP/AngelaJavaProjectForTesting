@@ -1,0 +1,288 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "RESET",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0442392",
+					"Description": "OLDHM MILD RL SAUS 6 LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "5.0",
+					"Quantity": "5.0",
+					"AdjustedWeight": "126.5",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000001106",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "LPN000000001106",
+					"SecondaryReferenceText": "ADJDUMPZ",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "system-msg-user@System",
+									"CreatedTimestamp": "2026-03-24T19:41:54.756",
+									"UpdatedBy": "system-msg-user@System",
+									"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "system-msg-user@System",
+									"CreatedTimestamp": "2026-03-24T19:41:54.756",
+									"UpdatedBy": "system-msg-user@System",
+									"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-05-28T16:23:19.097",
+					"UpdatedTimestamp": "2026-05-28T16:26:33.961",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-05-28T16:23:18.136"
+				},
+				"TransactionNumber": "7799853981122093267",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-05-28T16:23:18.136",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "RESET",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0040085",
+					"Description": "TRAY PK BEEF LIVER 1LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "5.0",
+					"Quantity": "5.0",
+					"AdjustedWeight": "89.3",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000001106",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "LPN000000001106",
+					"SecondaryReferenceText": "ADJDUMPZ",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "system-msg-user@System",
+									"CreatedTimestamp": "2026-03-24T19:41:54.756",
+									"UpdatedBy": "system-msg-user@System",
+									"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "system-msg-user@System",
+									"CreatedTimestamp": "2026-03-24T19:41:54.756",
+									"UpdatedBy": "system-msg-user@System",
+									"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-05-28T16:23:19.137",
+					"UpdatedTimestamp": "2026-05-28T16:26:33.963",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-05-28T16:23:18.417"
+				},
+				"TransactionNumber": "7799853981122093267",
+				"SequenceNumber": 2,
+				"TransactionDateTime": "2026-05-28T16:23:18.417",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "6d6407d7-ab6e-4cb6-8d61-76fcaa3223d8",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "KC",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/bc5kJB1DgiLw5yLuVoJs0fA1PUTtzmMrpzoTKZjo0g+KdBmQx9e8Ou5kG0mSlct+40iAX2kphdpYoFdSV4YgRnC3Q/t/DTJperMlDK7yXP/iZ7pW5BVxJRCyU4iyGYkhS67wNfW5zaMdmjwuQ9R+x4jcH++eTy72gYddYIqR+tP/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/gQkKDGMDaR0NAIgMUip2TvwbUT4o/+PNFTx8Ztrl2QIMlriJOVOzeuUNGsJQovlnEMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIR0pFfPSFVn0l2SNKN84tLIYXl5XFxVPwuh3Oe5y/S2DmN/vek5/zPMM4UY84zkH6129BYuqNCxWzOKGRO22qeoqJMLhxXIBK0mmZ8oFczVRV9OXB4Q4zdeIf4VK+Swx6E0AFD+0x/qka80yS33UMMeGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93XpG25HTqGSpH+/wSxJgNizJKIJuY5rWLqMYEZi8p0WMY9bVnhiPdgXVjwNwrASATxZi0pyt0STSI/hdZBHV5a9qEdfw65dsPPcrqHeMJ96aGrkx8C26XO/PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsyJyGJXHeUBUD13XQz2Ljwrq04D8rnqxLUz2Ujxw9iexjqx5m4hU+ZIiZKu8Dd/fww0HJSI20Ca85T9T8nSQQMVEgSnnOkHYnxVUX41fh1vfTiOvyrwgfNEPifIaW85yJw+thhrf2DDfQglkZMHSNuHuBPuqjLOZUkhQBH5kM913U6TOep0i1vgRqi6ZqGteaHiXLde+BgcFFgFoN3UANtUqpti7uaoubejYhR9C+T9DHgkB6myxZ14Lh/dDeIEVPHiQQeqgMO9TWtmH4e8nmD/o+MmUNLQVWGNUMWDvAB+jcFn2Nwhyay5sjE12QpZTVvcVAXY8Td/pcuPgC3OQF5pPOwZj1J4njlR7Q3CnL4P5sufi0eaIiigyChs3gEEx/m6OOJ618mtNVKP4qHGTr+tLRvgP9l6vYOU/NfaBsE/MuQgQomlsCH8R1Z+L803R9+8QvXid0WmMXbl6REa/cARA==",
+		"msg_submission_time": "2026-05-28T16:26:34.010",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-05-28T16:26:34.010Z",
+		"SPAN_ID": "17d01f1f369c814f",
+		"APP_ID_TRACE": "com-manh-cp-pix-awgrspr11o-l-pix-569d4556b8-5pwdh",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "KC",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-awgrspr11o-l-pix-569d4556b8-5pwdh",
+		"TRACE_ID": "0f755e48b8cd3487",
+		"ADDITIONAL_ATTRIBUTES": "{\"APIFlowTracing~x-activitystream-url\":\"/api/dcinventory/ilpn/cancelIlpnAndInventory\",\"ActivityTrackingNameSpace~ReasonCodeId\":\"Z\",\"PickNameSpace~requestHeaderNamespace\":\"ui-app-wm\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"ActivityTrackingNameSpace~ComponentName\":\"INVENTORY_MANAGEMENT\",\"ActivityTrackingNameSpace~CriteriaId\":\"Consume Ilpn Criteria\",\"componentScopedOrganization~relevantOrganizationId\":\"481f0c46b1702af9436c1ac683c588e0221f84c0bcdbd6d89b4b575a251dd892\",\"ActivityTrackingNameSpace~AdjustedQuantity\":-5.0,\"activitystream~activityStreamContext\":{\"properties\":{}},\"ActivityTrackingNameSpace~TransactionId\":\"SeedConsumeIlpn\",\"APIFlowTracing~PreviousComponentSequencePrefix\":\"0.0.0\",\"ScTransaction~TransactionId\":\"SeedConsumeIlpn\",\"activitystream~x-extension-handler-elapsed-time\":3677,\"APIFlowTracing~url-pattern\":\"/api/dcinventory/ilpn/cancelIlpnAndInventory\",\"TXN_IDENTIFIERS~TXN_ID\":\"7799853951016994637\",\"ScTransaction~TransactionTypeId\":\"Consume Ilpn\",\"ActivityTrackingNameSpace~ActivityDateTime\":\"2026-05-28T16:23:18.136\",\"APIFlowTracing~rootOriginated\":\"/services/rest/workflow/execute/workflowScriptName\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-jeremy.johnson@awginc.com 1779985395980\",\"ActivityTrackingNameSpace~AdjQtyAndReasonCodePopulatedInContext\":true,\"ActivityTrackingNameSpace~UserId\":\"jeremy.johnson@awginc.com\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"ScConfigIds~ConsumeIlpnCriteria\":\"Consume Ilpn Criteria\",\"activitystream~x-activity-stream-request-id\":\"0b9974a5f35814da9e1380cfb504f7c7\",\"ScConfigIds_Component~ConsumeIlpnCriteria\":\"inventory-management\",\"ActivityTrackingNameSpace~TransactionTypeId\":\"Consume Ilpn\",\"APIFlowTracing~trimmed-url\":\"/ilpn/cancelIlpnAndInventory\",\"APIFlowTracing~root-url-pattern\":\"/api/inventory-management/consumeIlpn/consumeIlpnOrPallet\"}",
+		"TenantId": "awgrspr11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "3375865745229331271523993255825623",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}

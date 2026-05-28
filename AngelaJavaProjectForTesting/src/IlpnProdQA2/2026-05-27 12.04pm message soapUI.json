@@ -1,0 +1,66 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "CancelASN",
+			"Description": "Cancel ASN Update to HOST",
+			"SourceTransactionType": "RECEIVING",
+			"SourceEventName": "CANCEL_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "sapintegrationadmin@awginc.com",
+				"AsnId": "00048189920260522060034",
+				"AlternateAsnId": "",
+				"AsnOriginTypeId": "P",
+				"CreatedTimestamp": "2026-05-27T17:00:31.301",
+				"UpdatedTimestamp": "2026-05-27T17:03:47.996",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-05-27T17:00:31.245"
+			},
+			"TransactionNumber": "7799012313006724518",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-05-27T17:00:31.245",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"Messages": null,
+			"PIXSpecification": "CancelASN",
+			"Description": "Cancel ASN Update to HOST",
+			"SourceTransactionType": "RECEIVING",
+			"SourceEventName": "CANCEL_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "sapintegrationadmin@awginc.com",
+				"AsnId": "00011062420251110153758",
+				"AlternateAsnId": "",
+				"AsnOriginTypeId": "P",
+				"CreatedTimestamp": "2026-05-27T17:00:31.687",
+				"UpdatedTimestamp": "2026-05-27T17:03:47.998",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-05-27T17:00:31.662"
+			},
+			"TransactionNumber": "7799012316876823197",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-05-27T17:00:31.662",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "cc732845-60a8-4269-a8b0-a67f7c839005",
+	"TotalPages": 1
+}

@@ -1,0 +1,19 @@
+{
+	"poQtyLpnItemCode": [
+		{
+			"itemCode": null,
+			"Qty": "12",
+			"poLineNbr": "001"
+		},
+		{
+			"itemCode": null,
+			"Qty": "12",
+			"poLineNbr": "002"
+		},
+		{
+			"itemCode": null,
+			"Qty": "12",
+			"poLineNbr": "003"
+		}
+	]
+}

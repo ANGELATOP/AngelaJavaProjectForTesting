@@ -1,0 +1,55 @@
+
+For more details, refer to "E:\Employer - AWG - 2026\Projects\WMS project INV_adjust\2026-05-28 Inv Adj-PROD_QA2 testing.xlsx".
+Refer to "badMsg screenshot.png".
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- aof 5-28-2026 at 3:09pm
+-- Email response back to Erick F, David, Hari,Scott womeldorff.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hi Erick,
+
+I reviewed the "bad" inventory message that didn't work.  The inventory adjustment application errored, and no message was sent downstream to SCM.  
+For this particular message, the reason code is Z, there's business logic to populate the "ReferenceText" with the value from "LocationId" element 
+from the Manhattan message.  
+
+Unfortunately, "ReferenceText" also represents the poNbr value.  
+
+The error occurred because logic was added to query the AWG table to get the warehouse code using the "ReferenceText" (aka poNbr), 
+since Manhattan doesn't always send an asnID containing fclty+warehouse+poNbr.  The warehouse code was needed to query an AWG table 
+to determine if an item is a random weight for reason code R. 
+
+Here's a solution that handles reason code Z.  Bypass the logic to get the warehouse code since it's not needed for reason code Z.  
+Let me know what your thoughts are on this solution.
+
+For reference this is what the message would look like going to scm.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Email response back to Erick F, David, Hari,Scott womeldorff.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+On Thu, May 28, 2026 at 12:53 PM Angela Toppins <angela.toppins@awginc.com> wrote:
+Hi Erick,
+
+These are inventory adjustments.  I'll take a look at the messages.  Can you tell me what results you were expecting so we can discuss?  
+
+I didn't realize you were testing inventory adjustments.  Are you done testing ASN Verify?  The plan is to promote ASN Verify to PROD today.
+
+
+Thanks,
+Angela Toppins
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Email from Erick F.  Copied David, Hari,Scott womeldorff
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+On Thu, May 28, 2026 at 11:53 AM Erick Fauscette <erick.fauscette@awginc.com> wrote:
+Tested this.
+
+The positive and application of the condition code worked. It was message ID : 62511262317229268271932151196529134
+
+  The negative and remove of the condition code did not work. It was message ID  
+3375865745229331271523993255825623
+
+When can you capture the messages and we can discuss what is happening and what should happen.
+
+
+
+

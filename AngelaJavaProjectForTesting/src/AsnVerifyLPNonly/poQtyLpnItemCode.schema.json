@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"poQtyLpnItemCode": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"itemCode": {
+						"type": "string"
+					},
+					"Qty": {
+						"type": "string"
+					},
+					"poLineNbr": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"itemCode",
+					"Qty",
+					"poLineNbr"
+				]
+			}
+		}
+	},
+	"required": [
+		"poQtyLpnItemCode"
+	]
+}

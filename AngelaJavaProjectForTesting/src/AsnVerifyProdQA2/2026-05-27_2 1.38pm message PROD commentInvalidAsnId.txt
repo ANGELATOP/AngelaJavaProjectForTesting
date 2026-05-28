@@ -1,0 +1,25 @@
+
+Invalid Format
+"AsnId": "00SAL379006720260527110014129",
+
+***Error in CommonLib Split on insert to Archive Detail Table.  Message did get put onto the queue successfully so no impact to the process.
+Fclty:KC Verify_ASN ASN_Level AsnId:00SAL379006720260527110014129 ItemId:0482729         --80 chars
+Fclty:KC Verify_ASN LPN_Level AsnId:00012706020260521082246 ItemId:0010380  --74chars (good key_string value example)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+My chat comment:
+@Troy Brazier It's a combination of several data attributes.  The issue is the asnID came in as 00SAL378826320260525060008025. 
+@Erick Fauscette This asnID doesn't look right.  It came from Manhattan at 1:38pm and 1:40pm.  Normally it looks like this one   
+
+Per Badrinath Vuppala
+This is Salvage ASN's , its Facility, Trip ID and current timestamp format yyyyMMddHHmmssSSS
+
+Per Erick Fauscette
+Just handle the error we dont want to process those
+
+****atoppins ASN Verify Code Change:
+if asnId > 23 characters, drop message.
+
+****atoppins CommonLib Code Change:
+if key_string > 75, truncate key_string value. 

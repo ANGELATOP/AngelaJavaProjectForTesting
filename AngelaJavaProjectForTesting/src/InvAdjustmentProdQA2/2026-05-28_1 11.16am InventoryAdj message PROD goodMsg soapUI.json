@@ -1,0 +1,250 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "CREATE_ILPN",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "RESET",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0040085",
+				"Description": "TRAY PK BEEF LIVER 1LB"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "jeremy.johnson@awginc.com",
+				"FromInventoryBucket": "UNAVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "5",
+				"Quantity": "5",
+				"AdjustedWeight": "89.3",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000001106",
+				"LocationId": "",
+				"ReasonCodeId": "P",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "Damaged Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "Damaged Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-05-28T16:12:50.228",
+				"UpdatedTimestamp": "2026-05-28T16:16:03.918",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-05-28T16:06:08.014"
+			},
+			"TransactionNumber": "7799847702267938286",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-05-28T16:06:08.014",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"Messages": null,
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "CREATE_ILPN",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "RESET",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0442392",
+				"Description": "OLDHM MILD RL SAUS 6 LB"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "jeremy.johnson@awginc.com",
+				"FromInventoryBucket": "UNAVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "5",
+				"Quantity": "5",
+				"AdjustedWeight": "126.5",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000001106",
+				"LocationId": "",
+				"ReasonCodeId": "P",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "Damaged Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "Damaged Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-05-28T16:12:50.264",
+				"UpdatedTimestamp": "2026-05-28T16:16:03.920",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-05-28T16:06:08.014"
+			},
+			"TransactionNumber": "7799847702647984295",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-05-28T16:06:08.014",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "34872cda-63a0-405f-81e8-4064d6bd0b9b",
+	"TotalPages": 1
+}

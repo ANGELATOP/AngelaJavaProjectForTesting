@@ -1,0 +1,10 @@
+<Logging_Message>
+	<Timestamp>2026-05-19.13.44.17.372</Timestamp>
+	<Level>ERROR</Level>
+	<Source>IIBT1</Source>
+	<Service>TestPullTrigger4MAEX02LIAPIX</Service>
+	<Status>Failed</Status>
+	<Path_NM></Path_NM>
+	<File_NM></File_NM>
+	<Message>GoogleAPI Error:HTTP/1.1 500 Error</Message>
+</Logging_Message>

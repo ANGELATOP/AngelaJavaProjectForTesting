@@ -8,21 +8,28 @@ public class ParseJsonFile {
 
 //	static String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\input\\";
 	
-	static String directory = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\";
-	static String outputDir = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\UtilityOutputs\\";
+//	static String directory = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\";
+//	static String outputDir = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\UtilityOutputs\\";
 
 //	static String directory = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\manhattan\\msg\\errors\\";
 //	static String outputDir = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\manhattan\\msg\\errors\\";
 
+//	static String directory = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\";
+//	static String outputDir = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\UtilityOutputs\\";
+
+	static String directory = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\";
+	static String outputDir = "C:\\Users\\atopp\\Documents\\AngelaJavaProjectForTesting-git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\UtilityOutputs\\";
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
 //		getPixTypes("\\AsnVerifyFromShravan\\Item_Level_ASNVerify_Manhattan_Msg.json");
 //		getPixTypes("\\AsnVerifyFromShravan\\LPN_Level_ASNVerify_Manhattan_Msg.json");
+//		getPixTypes("\\AsnVerify\\2026-04-03 group 1b - asn manhattan msg-soapUI.json");
+		getPixTypes("\\InvAdjustmentProdQA2\\2026-05-28_1 11.26 InventoryAdj message PROD soapUI.json");
 
-		getKeyInfoAsnVerify("\\AsnVerifyFromShravan\\\\Item_Level_ASNVerify_Manhattan_Msg.json");
-		getKeyInfoAsnVerify("\\AsnVerifyFromShravan\\\\LPN_Level_ASNVerify_Manhattan_Msg.json");
+//		getKeyInfoAsnVerify("\\AsnVerifyFromShravan\\\\Item_Level_ASNVerify_Manhattan_Msg.json");
+//		getKeyInfoAsnVerify("\\AsnVerifyFromShravan\\\\LPN_Level_ASNVerify_Manhattan_Msg.json");
 
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"015\"");
 
@@ -49,16 +56,53 @@ public class ParseJsonFile {
 	    	if(x.contains("ItemId") || 
 			    	   x.contains("PIXSpecification")  || 
 			    	   x.contains("AsnSequenceNumber")  || 
-			    	   x.contains("AsnId")  || 
+			    	   x.contains("\"AsnId\"")  || 
 			    	   x.contains("AttributeName")  || 
 			    	   x.contains("AttributeValue")  || 
 			    	   x.contains("AttributeUom")  || 
-			    	   x.contains("UnitsShipped")  || 
+//			    	   x.contains("UnitsShipped")  || 
 			    	   x.contains("UnitsReceived")) {
 	    		System.out.println(x);
 			    	}
 	    	}
 	}
+
+	public static void getPixTypes_2(String googleFileNm) throws Exception {
+		//same as getPixTypes() but string info on one line
+		
+		System.out.println(" ");
+		System.out.println("Processing file: "+googleFileNm);
+		List<String> output = RetrieveTextFile.retrieveTextFile(directory+googleFileNm);
+		List<String> temp = new ArrayList<String>();
+		
+		boolean currRec = false;
+		int counter=100;
+		int elementCnter=0;
+		
+		List<String> list = new ArrayList<String>();
+		
+		StringBuilder text = new StringBuilder();
+		int totalAttributes=1;
+	    for(String x:output){
+	    	temp = new ArrayList<String>();
+	    	
+	    	if(x.contains("PIXSpecification")) { 
+	    		System.out.println(text.toString());
+	    		text = new StringBuilder();
+	    		text.append(x);
+	        }else
+	    	if(x.contains("ItemId") || 
+			    	   x.contains("AsnSequenceNumber")  || 
+			    	   x.contains("\"AsnId\"")  || 
+			    	   x.contains("AttributeName")  || 
+			    	   x.contains("AttributeValue")  || 
+			    	   x.contains("AttributeUom")  || 
+			    	   x.contains("UnitsReceived")) {
+	    		       text.append(x);
+			    	}
+	    	}
+	}
+
 	public static void process(String googleFileNm) throws Exception {
 		
 		System.out.println("Processing file: "+googleFileNm);

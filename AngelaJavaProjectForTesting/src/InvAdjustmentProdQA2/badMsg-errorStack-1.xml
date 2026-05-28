@@ -1,0 +1,116 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+		<Line>423</Line>
+		<Function>ImbJniNode::evaluate</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>InventoryAdjustmentFromWaWMS#FCMComposite_1_3</Name>
+		<Label>InventoryAdjustmentFromWaWMS.manhattanMsg</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Caught exception and rethrowing</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>InventoryAdjustmentFromWaWMS.manhattanMsg</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+			<Line>423</Line>
+			<Function>ImbJniNode::evaluate</Function>
+			<Type>ComIbmMSLMappingNode</Type>
+			<Name>InventoryAdjustmentFromWaWMS#FCMComposite_1_13</Name>
+			<Label>InventoryAdjustmentFromWaWMS.Loop</Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>2230</Number>
+			<Text>Caught exception and rethrowing</Text>
+			<Insert>
+				<Type>14</Type>
+				<Text>InventoryAdjustmentFromWaWMS.Loop</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+				<Line>423</Line>
+				<Function>ImbJniNode::evaluate</Function>
+				<Type>ComIbmRouteNode</Type>
+				<Name>InventoryAdjustmentFromWaWMS#FCMComposite_1_11</Name>
+				<Label>InventoryAdjustmentFromWaWMS.adjustType</Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>2230</Number>
+				<Text>Caught exception and rethrowing</Text>
+				<Insert>
+					<Type>14</Type>
+					<Text>InventoryAdjustmentFromWaWMS.adjustType</Text>
+				</Insert>
+				<RecoverableException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+					<Line>423</Line>
+					<Function>ImbJniNode::evaluate</Function>
+					<Type>ComIbmMSLMappingNode</Type>
+					<Name>InventoryAdjustmentFromWaWMS#FCMComposite_1_50</Name>
+					<Label>InventoryAdjustmentFromWaWMS.getWarehouseCode</Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>2230</Number>
+					<Text>Caught exception and rethrowing</Text>
+					<Insert>
+						<Type>14</Type>
+						<Text>InventoryAdjustmentFromWaWMS.getWarehouseCode</Text>
+					</Insert>
+					<RecoverableException>
+						<File>MbErrorHandler.java</File>
+						<Line>151</Line>
+						<Function>evaluate</Function>
+						<Type></Type>
+						<Name></Name>
+						<Label></Label>
+						<Catalog>BIPmsgs</Catalog>
+						<Severity>3</Severity>
+						<Number>3947</Number>
+						<Text>Caught BrokerXCIDynamicException</Text>
+						<Insert>
+							<Type>5</Type>
+							<Text>{default}:InventoryAdjustmentFromWaWMS_getWarehouseCode</Text>
+						</Insert>
+						<Insert>
+							<Type>5</Type>
+							<Text>If: let $dbselect1 := jdbc:select(&apos;scm&apos;,
+								&apos;select DB2PDBA.SCPV_POH.POH_CPY_CD,
+								DB2PDBA.SCPV_POH.POH_PO_FACL, DB2PDBA.SCPV_POH.POH_PO_WHSE,
+								DB2PDBA.SCPV_POH.POH_PONO, DB2PDBA.SCPV_POH.POH_VEND,
+								DB2PDBA.SCPV_POH.POH_STAT, DB2PDBA.SCPV_POH.POH_PODT,
+								DB2PDBA.SCPV_POH.POH_RCDT, DB2PDBA.SCPV_POH.POH_ARDT from
+								DB2PDBA.SCPV_POH where DB2PDBA.SCPV_POH.POH_CPY_CD =
+								&apos;&apos;AWG&apos;&apos; AND DB2PDBA.SCPV_POH.POH_PO_FACL = ?
+								AND DB2PDBA.SCPV_POH.POH_PONO = ?&apos;, ($FaciltyCode,
+								$ReferenceText), xs:int(&apos;0&apos;), false(),&apos;&apos;,
+								xs:int(&apos;2&apos;) )</Text>
+						</Insert>
+						<RecoverableException>
+							<File>MbErrorHandlerBase.java</File>
+							<Line>174</Line>
+							<Function>throwableToMbException</Function>
+							<Type></Type>
+							<Name></Name>
+							<Label></Label>
+							<Catalog>BIPmsgs</Catalog>
+							<Severity>3</Severity>
+							<Number>3949</Number>
+							<Text>Caught BrokerXCIDynamicException</Text>
+							<Insert>
+								<Type>5</Type>
+								<Text>com.ibm.db2.jcc.am.SqlDataException: DB2 SQL Error:
+									SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null, DRIVER=4.33.31
+									DB2 SQL Error: SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null,
+									DRIVER=4.33.31
+								</Text>
+							</Insert>
+						</RecoverableException>
+					</RecoverableException>
+				</RecoverableException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>
