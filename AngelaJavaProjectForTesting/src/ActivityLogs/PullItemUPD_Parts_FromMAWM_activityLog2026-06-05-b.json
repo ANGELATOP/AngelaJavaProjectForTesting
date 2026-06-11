@@ -1,0 +1,977 @@
+{
+	"uri": "/apiv2/servers/MAWMS_IS/resource-managers/activity-log-manager?log_type=MSGFLOW&application=MaWMS_INB_Item_UpdateFromMAWM&library=&message_flow=PullItemUPD_Parts_FromMAWM",
+	"type": "activityLog",
+	"fetched": true,
+	"isFetching": false,
+	"timestampFormat": "yyyy-MM-dd HH:mm:ss.SSS",
+	"count": 1000,
+	"activityLogEntry": [
+		{
+			"message": {
+				"number": 13073,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 6,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:40.301",
+				"threadId": 21968,
+				"threadSequenceNumber": 4169
+			},
+			"text": "BIP13073I: Received reply from Web Server. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nHTTP status code: '500',  \nResponse headers: '98' bytes, response body: '232' bytes,  \nTotal request time: '120015' ms ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "500"
+				},
+				{
+					"text": "98"
+				},
+				{
+					"text": "232"
+				},
+				{
+					"text": "120015"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:40.304",
+				"threadId": 21968,
+				"threadSequenceNumber": 4170
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a818f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:40.304",
+				"threadId": 21968,
+				"threadSequenceNumber": 4171
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a828f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13030,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:40.305",
+				"threadId": 21968,
+				"threadSequenceNumber": 4172
+			},
+			"text": "BIP13030I: Opened IBM MQ queue 'AIS.EXCEPTION.COMMON'. ",
+			"detailedText": "Successfully opened IBM MQ queue 'AIS.EXCEPTION.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.EXCEPTION.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.ErrorHandler.AIS.EXCEPTION.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:40.305",
+				"threadId": 21968,
+				"threadSequenceNumber": 4173
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.EXCEPTION.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.EXCEPTION.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.EXCEPTION.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a838f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.ErrorHandler.AIS.EXCEPTION.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13033,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:40.307",
+				"threadId": 21968,
+				"threadSequenceNumber": 4174
+			},
+			"text": "BIP13033I: Committed a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"detailedText": "Successfully committed a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11506,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 1,
+				"tags": 2,
+				"timestamp": "2026-06-05 21:32:40.307",
+				"threadId": 21968,
+				"threadSequenceNumber": 4175
+			},
+			"text": "BIP11506I: Committed a local transaction. ",
+			"detailedText": "A local transaction has been committed for work done on the message flow thread. ",
+			"inserts": [
+				{
+					"text": "(000055D0-6A234000-0000033C)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13072,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 4,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:40.308",
+				"threadId": 21968,
+				"threadSequenceNumber": 4176
+			},
+			"text": "BIP13072I: Invoking a Web Service. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nRequest headers: '1194' bytes, request body: '45' bytes ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "1194"
+				},
+				{
+					"text": "45"
+				},
+				{
+					"text": "(000055D0-6A234078-0000033D)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		
+		
+		
+		
+		{
+			"message": {
+				"number": 13073,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 6,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:42.825",
+				"threadId": 21968,
+				"threadSequenceNumber": 4177
+			},
+			"text": "BIP13073I: Received reply from Web Server. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nHTTP status code: '200',  \nResponse headers: '435' bytes, response body: '3' bytes,  \nTotal request time: '2517' ms ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "200"
+				},
+				{
+					"text": "435"
+				},
+				{
+					"text": "3"
+				},
+				{
+					"text": "2517"
+				},
+				{
+					"text": "(000055D0-6A234078-0000033D)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:42.829",
+				"threadId": 21968,
+				"threadSequenceNumber": 4178
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234078-0000033D)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a848f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:42.830",
+				"threadId": 21968,
+				"threadSequenceNumber": 4179
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A234078-0000033D)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a858f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11506,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 1,
+				"tags": 2,
+				"timestamp": "2026-06-05 21:32:42.830",
+				"threadId": 21968,
+				"threadSequenceNumber": 4180
+			},
+			"text": "BIP11506I: Committed a local transaction. ",
+			"detailedText": "A local transaction has been committed for work done on the message flow thread. ",
+			"inserts": [
+				{
+					"text": "(000055D0-6A234078-0000033D)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13072,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 4,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:42.832",
+				"threadId": 21968,
+				"threadSequenceNumber": 4181
+			},
+			
+			
+			
+			
+			
+			"text": "BIP13072I: Invoking a Web Service. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nRequest headers: '1194' bytes, request body: '45' bytes ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "1194"
+				},
+				{
+					"text": "45"
+				},
+				{
+					"text": "(000055D0-6A23407A-0000033E)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13073,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 6,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:44.324",
+				"threadId": 21968,
+				"threadSequenceNumber": 4182
+			},
+			"text": "BIP13073I: Received reply from Web Server. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nHTTP status code: '200',  \nResponse headers: '435' bytes, response body: '3' bytes,  \nTotal request time: '1492' ms ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "200"
+				},
+				{
+					"text": "435"
+				},
+				{
+					"text": "3"
+				},
+				{
+					"text": "1492"
+				},
+				{
+					"text": "(000055D0-6A23407A-0000033E)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:44.325",
+				"threadId": 21968,
+				"threadSequenceNumber": 4183
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A23407A-0000033E)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a868f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:44.326",
+				"threadId": 21968,
+				"threadSequenceNumber": 4184
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A23407A-0000033E)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a878f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11506,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 1,
+				"tags": 2,
+				"timestamp": "2026-06-05 21:32:44.326",
+				"threadId": 21968,
+				"threadSequenceNumber": 4185
+			},
+			"text": "BIP11506I: Committed a local transaction. ",
+			"detailedText": "A local transaction has been committed for work done on the message flow thread. ",
+			"inserts": [
+				{
+					"text": "(000055D0-6A23407A-0000033E)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13072,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 4,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:44.327",
+				"threadId": 21968,
+				"threadSequenceNumber": 4186
+			},
+			"text": "BIP13072I: Invoking a Web Service. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nRequest headers: '1194' bytes, request body: '45' bytes ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "1194"
+				},
+				{
+					"text": "45"
+				},
+				{
+					"text": "(000055D0-6A23407C-0000033F)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13073,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 6,
+				"tags": 3,
+				"timestamp": "2026-06-05 21:32:46.825",
+				"threadId": 21968,
+				"threadSequenceNumber": 4187
+			},
+			"text": "BIP13073I: Received reply from Web Server. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull',  \nHTTP status code: '200',  \nResponse headers: '435' bytes, response body: '3' bytes,  \nTotal request time: '2498' ms ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				},
+				{
+					"text": "200"
+				},
+				{
+					"text": "435"
+				},
+				{
+					"text": "3"
+				},
+				{
+					"text": "2498"
+				},
+				{
+					"text": "(000055D0-6A23407C-0000033F)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:46.826",
+				"threadId": 21968,
+				"threadSequenceNumber": 4188
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A23407C-0000033F)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a888f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 21:32:46.828",
+				"threadId": 21968,
+				"threadSequenceNumber": 4189
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055D0-6A23407C-0000033F)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a898f7621"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP4"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11506,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 1,
+				"tags": 2,
+				"timestamp": "2026-06-05 21:32:46.828",
+				"threadId": 21968,
+				"threadSequenceNumber": 4190
+			},
+			"text": "BIP11506I: Committed a local transaction. ",
+			"detailedText": "A local transaction has been committed for work done on the message flow thread. ",
+			"inserts": [
+				{
+					"text": "(000055D0-6A23407C-0000033F)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullItemUPD_Parts_FromMAWM"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		}
+		
+	],
+	"refreshedAt": 1780697123722,
+	"fetchedAt": 1780697123722,
+	"error": null
+}

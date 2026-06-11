@@ -1,0 +1,486 @@
+{
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "NA",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0107581",
+					"Description": "AL SAVE ORANGE DRINK 128 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "2.0",
+					"Quantity": "2.0",
+					"AdjustedWeight": "112.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000006358",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-06-11T17:00:46.922",
+					"UpdatedTimestamp": "2026-06-11T17:04:06.449",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-11T17:00:45.817"
+				},
+				"TransactionNumber": "7811972458039688080",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-06-11T17:00:45.817",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "NA",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0163774",
+					"Description": "FAIRLIFE 2% CHOC MLK 52 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "2.0",
+					"Quantity": "2.0",
+					"AdjustedWeight": "44.56",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000006358",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-06-11T17:00:47.020",
+					"UpdatedTimestamp": "2026-06-11T17:04:06.452",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-11T17:00:46.084"
+				},
+				"TransactionNumber": "7811972458039688080",
+				"SequenceNumber": 2,
+				"TransactionDateTime": "2026-06-11T17:00:46.084",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "NA",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0028114",
+					"Description": "GOLD PEAK SWT TEA 76 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "2.0",
+					"Quantity": "2.0",
+					"AdjustedWeight": "65.6",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000006358",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-06-11T17:00:47.230",
+					"UpdatedTimestamp": "2026-06-11T17:04:06.452",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-11T17:00:46.310"
+				},
+				"TransactionNumber": "7811972458039688080",
+				"SequenceNumber": 3,
+				"TransactionDateTime": "2026-06-11T17:00:46.310",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "MODIFY_ILPN",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "NA",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0329938",
+					"Description": "HO FAT FREE MILK 64 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "2.0",
+					"Quantity": "2.0",
+					"AdjustedWeight": "54.674",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "LPN000000006358",
+					"LocationId": "B2DUMPZ",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:15.968",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:15.968",
+									"Messages": null,
+									"ConditionCodeId": "D",
+									"Description": "Damaged Product",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-06-11T17:00:47.603",
+					"UpdatedTimestamp": "2026-06-11T17:04:06.452",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-11T17:00:46.527"
+				},
+				"TransactionNumber": "7811972458039688080",
+				"SequenceNumber": 4,
+				"TransactionDateTime": "2026-06-11T17:00:46.527",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "86a9132f-6bcf-4179-a3b3-a58410fbbd71",
+		"TotalPages": 1
+	}

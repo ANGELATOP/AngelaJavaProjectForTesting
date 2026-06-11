@@ -1,0 +1,52 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-- 2026-06-11 manhattan msg 1a.json 
+---------------------------------------------------------------------------------------------------------------------------------------
+googleMsgIdPk: 1791172097844107115740597630370334
+"SourceTransactionType": "CREATE_ILPN"
+4 item messages
+No status updates since the message was going from one condtion to another condition (same condition code for both).
+
+** message 1
+** message 2
+** message 3
+** message 4
+"SourceTransactionType": "CREATE_ILPN"
+Both ToConditionCodes and FromConditionCodes exists.  Item still not available.  No status message. 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-- 2026-06-11 manhattan msg 2a.json
+---------------------------------------------------------------------------------------------------------------------------------------
+googleMsgIdPk: 5501271136912262266932747732102064
+"SourceTransactionType": "MODIFY_ILPN"
+4 item messages
+All had no status updates since the message was going from one condtion to another condition (same condition code for both).
+
+** message 1
+** message 2
+** message 3
+** message 4
+"SourceTransactionType": "MODIFY_ILPN"
+Both ToConditionCodes and FromConditionCodes exists.  Item still not available.  No status message. 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-- 2026-06-11 manhattan msg 3a.json
+---------------------------------------------------------------------------------------------------------------------------------------
+googleMsgIdPk: 994165770642627526180478285287289 
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+2 item messages
+Item 0946020: status went from availabe to not available.  There should be a status message.
+
+** message 1
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+ToCondtionCodes exists and FromConditionCodes empty.  The item is not available any longer.  Status message created.
+
+** message 2 
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+Both ToConditionCodes and FromConditionCodes exists.  No status message. 
+
+
+

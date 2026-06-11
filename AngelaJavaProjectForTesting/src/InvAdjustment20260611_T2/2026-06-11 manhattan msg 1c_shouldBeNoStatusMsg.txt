@@ -1,0 +1,16 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-- 2026-06-11 manhattan msg 1a.json 
+---------------------------------------------------------------------------------------------------------------------------------------
+googleMsgIdPk: 1791172097844107115740597630370334
+"SourceTransactionType": "CREATE_ILPN"
+4 item messages
+No status updates since the message was going from one condtion to another condition (same condition code for both).
+
+** message 1
+** message 2
+** message 3
+** message 4
+"SourceTransactionType": "CREATE_ILPN"
+Both ToConditionCodes and FromConditionCodes exists.  Item still not available.  No status message. 
+

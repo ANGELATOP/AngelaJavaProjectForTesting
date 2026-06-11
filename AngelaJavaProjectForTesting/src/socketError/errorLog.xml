@@ -1,0 +1,107 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/MessageServices/ImbDataFlowNode.cpp</File>
+		<Line>1607</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmWSRequestNode</Type>
+		<Name>PullItemUPD_Parts_FromMAWM#FCMComposite_1_2.MaWMS_CommonLIB.PullMessage#FCMComposite_1_7</Name>
+		<Label>PullItemUPD_Parts_FromMAWM.PullMessage.Pull Message</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>PullItemUPD_Parts_FromMAWM.PullMessage.Pull Message</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/WebServices/WSLibrary/ImbWSRequestNode.cpp</File>
+			<Line>794</Line>
+			<Function>ImbWSRequestNode::evaluate</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>3162</Number>
+			<Text>WebService Request Exception</Text>
+			<Insert>
+				<Type>12</Type>
+				<Text>X&apos;436f6e74656e742d4c656e6774683a2034350d0a417574686f72697a6174696f6e3a2042656172657220796132392e632e6330415a34624e70624f715f664c6e38303648757a436d5a6f4a555a6b717935507a5f614d6f74556c707a5a546861526355576d626c4a52393656726e583875473448626f4672575857516f46725f75756449486a50686e6b5564654c3447523938372d6d51516e72656d6171354e67695554344a335a6567466e726b3472575842795a756b7078655a3565356a6d5734713462794f6e78326e4d55374476434d316f685a42333959594e6b535f4a6d43473253546d366b38626278396a535f687851717866774252426e6b5f5f556861315f414e3772584d77736947636d492d306f43554544566434394b594c6d68485277514a663543513165645a475249586a675a574f78636b77784d36364749475648414c49396c34536c63567634567a66684572753059583844527044326d5270795a537663512d33554d347567566d51386e3959346276527253677779364c434878343969363234734368476f5277564d625f775565712d423631455a6a4f37664c543152304637483338355038786a6a78786673737a3562694d65737a586d4d4d64363936553866675a576342746a3432497a35766e3555555536534679336f46723149556e526f68557964746b745f613674536d356673427157365a42673558706861766e4270335f5162612d4a6f5f724f583153705153314d71635177665778635557376567597a73354a7477676639556c71496b346771686c6457343353337a535a565649353668315a5a3538696a38397962737165426b664f7552526136795668666755385574343375366b6d34536864366d6e31366474716665664d556b5a72726e5f36575239512d6d5330756a6c332d7152397675726835336f67677264674937427068634d79575f567537374d793035665832727942656655635f383552734d6a39597571627766624649575574537a34672d5f6c7677745a4d6e32577834356677683177715378667a5f745263775a6e65656c6167367a595849537a5f42376b5735745734737668786e76665765352d6c354d4f7632737162777942357174676530335946736533554f6378533339424638383978677a336530735f6d724274554d3737364d6a6472575637386c744a316d366872716f5567626c3074685156376930775176535f574d5a6874375a655155624a497639466b75317062496f713058557a63656f5133396c2d33636b5f716e56344a4a2d3276375377716c7458723161334d2d566b4f71427859676e795a4d385732552d6a333961514d6a7855536b6c2d6c6b79336d366a57744d773451723352367365514f72367376656e584d3852575f6b77536e7469626a6d35784d557a554633465a69726e72706946723258737837765351537673426855495636714f6b5f69385f6673313042550d0a436f6e74656e742d547970653a206170706c69636174696f6e2f6a736f6e3b636861727365743d7574662d380d0a486f73743a20647064657630312d6170692d6465762e6177672e6c6f63616c3a383032380d0a534f4150416374696f6e3a2022220d0a436f6e6e656374696f6e3a204b6565702d416c6976650d0a0d0a&apos;</Text>
+			</Insert>
+			<Insert>
+				<Type>12</Type>
+				<Text>X&apos;7b2272657475726e496d6d6564696174656c79223a2274727565222c226d61784d65737361676573223a35307d&apos;</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text></Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text></Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>POST
+					/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull
+					HTTP/1.1
+				</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/WebServices/WSBase/ImbWSRequest.cpp</File>
+				<Line>726</Line>
+				<Function>Imb::WSRequest::makeWSRequest</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>3152</Number>
+				<Text>A Web Service request has detected a SOCKET error whilst
+					invoking a web service located at host &amp;1, on port &amp;2, on
+					path &amp;3.</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>dpdev01-api-dev.awg.local</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>8028</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull</Text>
+				</Insert>
+				<SocketTimeoutException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/CommonServices/ImbBasicSocket.cpp</File>
+					<Line>1233</Line>
+					<Function>ImbBasicSocket::recvTimeout</Function>
+					<Type></Type>
+					<Name></Name>
+					<Label></Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>3151</Number>
+					<Text>A timeout occurred whilst performing a socket operation</Text>
+					<Insert>
+						<Type>5</Type>
+						<Text>::poll()</Text>
+					</Insert>
+					<Insert>
+						<Type>2</Type>
+						<Text>0</Text>
+					</Insert>
+					<Insert>
+						<Type>5</Type>
+						<Text>Success</Text>
+					</Insert>
+					<Insert>
+						<Type>2</Type>
+						<Text>0</Text>
+					</Insert>
+				</SocketTimeoutException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

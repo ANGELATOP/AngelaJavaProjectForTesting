@@ -1,0 +1,18 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-- 2026-06-11 manhattan msg 3a.json
+---------------------------------------------------------------------------------------------------------------------------------------
+googleMsgIdPk: 994165770642627526180478285287289 
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+2 item messages
+Item 0946020: status went from availabe to not available.  There should be a status message.
+
+** message 1
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+ToCondtionCodes exists and FromConditionCodes empty.  The item is not available any longer.  Status message created.
+
+** message 2 
+"SourceTransactionType": "APPLIED_CONDITION_CODE"
+Both ToConditionCodes and FromConditionCodes exists.  No status message. 
+

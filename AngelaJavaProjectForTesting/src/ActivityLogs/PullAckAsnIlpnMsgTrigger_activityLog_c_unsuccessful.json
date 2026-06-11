@@ -1,0 +1,701 @@
+{
+	"uri": "/apiv2/servers/MAWMS_IS/resource-managers/activity-log-manager?log_type=MSGFLOW&application=MaWMS_INB_PIX_ASN_ilpnFromMAWM&library=&message_flow=PullAckAsnilpnMsgTrigger",
+	"type": "activityLog",
+	"fetched": true,
+	"isFetching": false,
+	"timestampFormat": "yyyy-MM-dd HH:mm:ss.SSS",
+	"count": 1000,
+	"activityLogEntry": [
+		{
+			"message": {
+				"number": 13072,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 4,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:02:10.475",
+				"threadId": 21964,
+				"threadSequenceNumber": 786
+			},
+			"text": "BIP13072I: Invoking a Web Service. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull',  \nRequest headers: '1194' bytes, request body: '45' bytes ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull"
+				},
+				{
+					"text": "1194"
+				},
+				{
+					"text": "45"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13074,
+				"severity": 20,
+				"severityCode": "E",
+				"source": "BIPmsgs",
+				"inserts": 4,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.490",
+				"threadId": 21964,
+				"threadSequenceNumber": 787
+			},
+			"text": "BIP13074E: Web Service invocation was unsuccessful. ",
+			"detailedText": "URL: 'http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull',  \nIIB error code: 'BIP3152',  \nTotal request time: '120015' ms ",
+			"inserts": [
+				{
+					"text": "http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull"
+				},
+				{
+					"text": "BIP3152"
+				},
+				{
+					"text": "120015"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.Pull Message"
+				},
+				{
+					"name": "RM",
+					"value": "WebService"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13025,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.492",
+				"threadId": 21964,
+				"threadSequenceNumber": 788
+			},
+			"text": "BIP13025I: Connected to IBM MQ queue manager 'AIST2'. ",
+			"detailedText": "Successfully connected to IBM MQ queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13030,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.492",
+				"threadId": 21964,
+				"threadSequenceNumber": 789
+			},
+			"text": "BIP13030I: Opened IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully opened IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 20:04:10.493",
+				"threadId": 21964,
+				"threadSequenceNumber": 790
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a0acf7321"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13030,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.493",
+				"threadId": 21964,
+				"threadSequenceNumber": 791
+			},
+			"text": "BIP13030I: Opened IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully opened IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 20:04:10.494",
+				"threadId": 21964,
+				"threadSequenceNumber": 792
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a0bcf7321"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.AIS.LOGGING.BACKUP"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13030,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.494",
+				"threadId": 21964,
+				"threadSequenceNumber": 793
+			},
+			"text": "BIP13030I: Opened IBM MQ queue 'AIS.EXCEPTION.COMMON'. ",
+			"detailedText": "Successfully opened IBM MQ queue 'AIS.EXCEPTION.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.EXCEPTION.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.ErrorHandler.AIS.EXCEPTION.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13027,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 5,
+				"timestamp": "2026-06-05 20:04:10.495",
+				"threadId": 21964,
+				"threadSequenceNumber": 794
+			},
+			"text": "BIP13027I: Wrote message to IBM MQ queue 'AIS.EXCEPTION.COMMON'. ",
+			"detailedText": "Successfully wrote a message to IBM MQ queue 'AIS.EXCEPTION.COMMON' on queue manager 'AIST2' ",
+			"inserts": [
+				{
+					"text": "AIS.EXCEPTION.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSG_ID",
+					"value": "414d51204149535432202020202020208fd8226a0ccf7321"
+				},
+				{
+					"name": "CORREL_ID",
+					"value": "000000000000000000000000000000000000000000000000"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "PullMessage.ErrorHandler.AIS.EXCEPTION.COMMON"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13033,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.496",
+				"threadId": 21964,
+				"threadSequenceNumber": 795
+			},
+			"text": "BIP13033I: Committed a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"detailedText": "Successfully committed a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11506,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 1,
+				"tags": 2,
+				"timestamp": "2026-06-05 20:04:10.496",
+				"threadId": 21964,
+				"threadSequenceNumber": 796
+			},
+			"text": "BIP11506I: Committed a local transaction. ",
+			"detailedText": "A local transaction has been committed for work done on the message flow thread. ",
+			"inserts": [
+				{
+					"text": "(000055CC-6A232B42-00000042)"
+				}
+			],
+			"tags": [
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 11302,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:04:10.497",
+				"threadId": 21964,
+				"threadSequenceNumber": 797
+			},
+			"text": "BIP11302I: There are '55' parsers cached on this thread. ",
+			"detailedText": "",
+			"inserts": [
+				{
+					"text": "55"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "Parsers"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13034,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:05:10.569",
+				"threadId": 21964,
+				"threadSequenceNumber": 798
+			},
+			"text": "BIP13034I: Rolled back a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"detailedText": "Successfully rolled back a locally-coordinated transaction on IBM MQ queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13031,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:05:10.569",
+				"threadId": 21964,
+				"threadSequenceNumber": 799
+			},
+			"text": "BIP13031I: Closed IBM MQ queue 'AIS.EXCEPTION.COMMON'. ",
+			"detailedText": "Successfully closed IBM MQ queue 'AIS.EXCEPTION.COMMON' on queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIS.EXCEPTION.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13031,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:05:10.569",
+				"threadId": 21964,
+				"threadSequenceNumber": 800
+			},
+			"text": "BIP13031I: Closed IBM MQ queue 'AIS.LOGGING.BACKUP'. ",
+			"detailedText": "Successfully closed IBM MQ queue 'AIS.LOGGING.BACKUP' on queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.BACKUP"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13031,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 3,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:05:10.569",
+				"threadId": 21964,
+				"threadSequenceNumber": 801
+			},
+			"text": "BIP13031I: Closed IBM MQ queue 'AIS.LOGGING.COMMON'. ",
+			"detailedText": "Successfully closed IBM MQ queue 'AIS.LOGGING.COMMON' on queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIS.LOGGING.COMMON"
+				},
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		},
+		{
+			"message": {
+				"number": 13024,
+				"severity": 0,
+				"severityCode": "I",
+				"source": "BIPmsgs",
+				"inserts": 2,
+				"tags": 3,
+				"timestamp": "2026-06-05 20:05:10.569",
+				"threadId": 21964,
+				"threadSequenceNumber": 802
+			},
+			"text": "BIP13024I: Disconnected from IBM MQ queue manager 'AIST2'. ",
+			"detailedText": "Successfully disconnected from IBM MQ queue manager 'AIST2'. ",
+			"inserts": [
+				{
+					"text": "AIST2"
+				},
+				{
+					"text": "(00000000-00000000-00000000)"
+				}
+			],
+			"tags": [
+				{
+					"name": "RM",
+					"value": "MQ"
+				},
+				{
+					"name": "MSGFLOW",
+					"value": "PullAckAsnilpnMsgTrigger"
+				},
+				{
+					"name": "NODE",
+					"value": "Timeout Notification"
+				}
+			]
+		}
+		
+		
+
+	],
+	"refreshedAt": 1780698239165,
+	"fetchedAt": 1780698239165,
+	"error": null
+}
