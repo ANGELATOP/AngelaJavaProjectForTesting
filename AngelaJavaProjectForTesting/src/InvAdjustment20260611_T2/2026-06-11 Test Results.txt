@@ -38,7 +38,7 @@ Both ToConditionCodes and FromConditionCodes exists.  Item still not available. 
 googleMsgIdPk: 994165770642627526180478285287289 
 "SourceTransactionType": "APPLIED_CONDITION_CODE"
 2 item messages
-Item 0946020: status went from availabe to not available.  There should be a status message.
+Item 0946020: status went from available to not available.  There should be a status message.
 
 ** message 1
 "SourceTransactionType": "APPLIED_CONDITION_CODE"

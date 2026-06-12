@@ -1,0 +1,20 @@
+
+
+
+Group Chat
+Erick Fauscette erick.fauscette@awginc.com
+Angela Toppins angela.toppins@awginc.com
+David Caauwe david.caauwe@awginc.com
+Hari Krishna Veeramachaneni harikrishna.veeramachaneni@awginc.com
+Jeremy Johnson  jeremy.johnson@awginc.com
+
+
+
+
+@Erick Fauscette The original logic was to always send a status message for transaction APPLIED_CONDITION_CODE.  
+I have made the code change to follow the new rule and only send if there's actually a status change.  
+The code has been deployed to Q2.  @Jeremy Johnson can you retest in Q2 when you have a chance? 
+
+
+atoppins: retested and now only 1 status message is created.
+
