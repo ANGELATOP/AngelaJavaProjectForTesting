@@ -1,0 +1,51 @@
+							
+		<?xml version="1.0" encoding="UTF-8"?>					
+		<!DOCTYPE job [					
+			<!ENTITY job-listeners SYSTEM "entities/awg-job-listeners.xml">				
+			<!ENTITY step-listeners SYSTEM "entities/awg-step-listeners.xml">				
+		]>
+<job id="SCM_Adhoc_ASNShipmentProcessor"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+
+	<!-- C H A N G E L O G ServiceNow# Changed By Changed On Description of 
+		Changes ================= ===================== ============ ================================================= 
+		PRJTASK0144206 Anson Mathew May 11, 2022 Creation -->
+
+	<properties>
+		<property name="facility"   value="#{systemProperties['facility']}" />
+		<property name="faclCd"     value="#{systemProperties['faclCd']}" />
+		<property name="workingDir" value="#{systemProperties['APP_DATA_TMP_FCLTY_SUBSYS']}/" />
+		<property name="outputDir" 	value="#{systemProperties['APP_DATA_MFT_INBOUND']}/asn/" />
+	</properties>				
+							
+		    &job-listeners;
+
+
+	<step id="LoadASNShipments">				
+			 				
+			 &step-listeners;
+
+		<properties>
+			<property name="cpyCd"              value="AWG" />
+			<property name="faclCd"             value="#{jobProperties['facility']}" />
+			<property name="workingDir" 		value="#{jobProperties['workingDir']}" />
+			<property name="outputDir"			value="#{jobProperties['outputDir']}" />
+			<property name="sql"				value="SELECT POH_PO_WHSE, POH_PONO, POH_VND_REF_NBR, POH_TOQT, POH_TOWW, POH_PWDT, POH_PO_FACL FROM SCPV_POH WHERE POH_CPY_CD = ? AND substr(POH_VND_REF_NBR,5,2) = '#{jobProperties['facility']}' AND POH_SDDT = '1900-01-01' ORDER BY POH_PO_FACL, POH_VND_REF_NBR, POH_PO_WHSE"></property>
+		</properties>
+
+		<batchlet
+			ref="com.aquitecintl.batch.procurement.ASNShipmentProcessor">
+			<properties>
+				<property name="dataSourceLookup" value="jdbc/db2/batapp/db2pdba" />
+				<property name="hostLookup"       value="socket/rhapp"/>
+			</properties>
+		</batchlet>
+
+		<end on="0" exit-status="COMPLETED" />
+		<fail on="*" exit-status="FAILED" />
+
+	</step>
+
+
+
+</job>					

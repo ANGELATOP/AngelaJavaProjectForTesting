@@ -1,0 +1,62 @@
+<Error>
+	<RecoverableException timestampError="2026-06-04 13:53:34.543839">
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/MessageServices/ImbDataFlowNode.cpp</File>
+		<Line>1607</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>DatabaseInserts#FCMComposite_1_4</Name>
+		<Label>DatabaseInserts.insertFacilities</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>DatabaseInserts.insertFacilities</Text>
+		</Insert>
+		<RecoverableException>
+			<File>MbErrorHandler.java</File>
+			<Line>151</Line>
+			<Function>evaluate</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>3947</Number>
+			<Text>Caught BrokerXCIDynamicException</Text>
+			<Insert>
+				<Type>5</Type>
+				<Text>{default}:DatabaseInserts_insertFacilities</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>RDBInsert: let $dbinsert := jdbc:insert(&apos;scm&apos;,
+					&apos;insert into DB2PDBA.AIO_RTL_CSTMR_FCLTY_HRRCHY &apos;,
+					$dbinsert_var_params, xs:int(&apos;0&apos;),true(),&apos;&apos;,
+					xs:int(&apos;9&apos;) )</Text>
+			</Insert>
+			<RecoverableException>
+				<File>MbErrorHandlerBase.java</File>
+				<Line>174</Line>
+				<Function>throwableToMbException</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>3949</Number>
+				<Text>Caught BrokerXCIDynamicException</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>com.ibm.db2.jcc.am.SqlIntegrityConstraintViolationException:
+						DB2 SQL Error: SQLCODE=-803, SQLSTATE=23505,
+						SQLERRMC=1;DB2PDBA.AIO_RTL_CSTMR_FCLTY_HRRCHY, DRIVER=4.33.31
+						DB2 SQL Error: SQLCODE=-803, SQLSTATE=23505,
+						SQLERRMC=1;DB2PDBA.AIO_RTL_CSTMR_FCLTY_HRRCHY, DRIVER=4.33.31
+					</Text>
+				</Insert>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

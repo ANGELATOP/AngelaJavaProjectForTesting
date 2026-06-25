@@ -1,0 +1,14 @@
+<root>
+
+	<Logging_Message>
+		<Timestamp>2026-06-25.14.04.09.634</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>UpdateStoreMaster</Service>
+		<Status>Info</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+	</Logging_Message>
+	
+	
+</root>

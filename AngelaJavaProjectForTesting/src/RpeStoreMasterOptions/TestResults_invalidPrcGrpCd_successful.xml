@@ -1,0 +1,13 @@
+<Logging_Message>
+	<Timestamp>2026-06-25.10.23.45.501</Timestamp>
+	<Level>ERROR</Level>
+	<Source>IIBT1</Source>
+	<Service>UpdateStoreMaster</Service>
+	<Status>Failed</Status>
+	<Path_NM></Path_NM>
+	<File_NM></File_NM>
+	<Message>StoreNbr:0111 FcltyNbr:00 PrcGrpCd:00111
+		ErrorMsg:InvalidPrcGrpCd. Does not exist on DB2PDBA.SPM_PRC_GRP table.
+	</Message>
+</Logging_Message>
+

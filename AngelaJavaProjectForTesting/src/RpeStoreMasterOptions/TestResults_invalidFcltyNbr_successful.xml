@@ -1,0 +1,13 @@
+<Logging_Message>
+	<Timestamp>2026-06-25.10.22.13.867</Timestamp>
+	<Level>ERROR</Level>
+	<Source>IIBT1</Source>
+	<Service>UpdateStoreMaster</Service>
+	<Status>Failed</Status>
+	<Path_NM></Path_NM>
+	<File_NM></File_NM>
+	<Message>StoreNbr:0111 FcltyNbr:35 ErrorMsg:Invalid Facility Number.
+		ValidFacilities:00 01 02 03 04 05 06 07 08 09 10 11 12 14 16 </Message>
+</Logging_Message>
+
+

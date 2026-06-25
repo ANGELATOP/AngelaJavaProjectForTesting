@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<STR_MASTER>
+	<STR_SEGMENT>
+		<STR_ACTION>U</STR_ACTION>
+		<STORE_NUMBER>0892</STORE_NUMBER>
+		<FACILITY>00</FACILITY>
+		<SFTP_RTL_FLDR_NM>
+		</SFTP_RTL_FLDR_NM>
+		<SFTP_OVRD_RTL_FLDR_NM> test2  </SFTP_OVRD_RTL_FLDR_NM>
+	</STR_SEGMENT>
+</STR_MASTER>
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+		<Line>423</Line>
+		<Function>ImbJniNode::evaluate</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>UpdateStoreMaster#FCMComposite_1_9.MapFcltySession#FCMComposite_1_1</Name>
+		<Label>UpdateStoreMaster.MapFcltySession.isSessionAlive</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Caught exception and rethrowing</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>UpdateStoreMaster.MapFcltySession.isSessionAlive</Text>
+		</Insert>
+		<ParserException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/MTI/MTIforBroker/GenXmlParser4/ImbXMLNSCParser.cpp</File>
+			<Line>1097</Line>
+			<Function>ImbXMLNSCParser::parseLastChild</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>5009</Number>
+			<Text>XML Parsing Errors have occurred</Text>
+			<ParserException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/MTI/MTIforBroker/GenXmlParser4/ImbXMLNSCDocHandler.cpp</File>
+				<Line>784</Line>
+				<Function>ImbXMLNSCDocHandler::handleParseErrors</Function>
+				<Type>ComIbmMQInputNode</Type>
+				<Name>UpdateStoreMaster#FCMComposite_1_5</Name>
+				<Label>UpdateStoreMaster.ATOPPIN.TEMP.STR.MSTR</Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>5004</Number>
+				<Text>An XML parsing error has occurred while parsing the XML
+					document</Text>
+				<Insert>
+					<Type>2</Type>
+					<Text>1533</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>2</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>1</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>14</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>The processing instruction target matching
+						&quot;[xX][mM][lL]&quot; is not allowed.</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>/Root/XMLNSC</Text>
+				</Insert>
+			</ParserException>
+		</ParserException>
+	</RecoverableException>
+</Error>
