@@ -1,0 +1,208 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "RESET",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0108308",
+					"Description": "APPLE WA GD PRM CP96 LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "2026-06-09",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "matthew.kern@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "29",
+					"Quantity": "29",
+					"AdjustedWeight": "1218.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "P17114",
+					"ReasonCodeId": "Y",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-06-30T20:23:32.237",
+					"UpdatedTimestamp": "2026-06-30T20:23:51.854",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-30T20:23:31.467"
+				},
+				"TransactionNumber": "7828510114582668225",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-06-30T20:23:31.467",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "RESET",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0108308",
+					"Description": "APPLE WA GD PRM CP96 LB"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "",
+					"ManufactureDate": "2026-06-30",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "matthew.kern@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "29",
+					"Quantity": "29",
+					"AdjustedWeight": "1218.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "P17114",
+					"ReasonCodeId": "Y",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeightType": "ADD",
+					"CreatedTimestamp": "2026-06-30T20:23:32.307",
+					"UpdatedTimestamp": "2026-06-30T20:23:51.856",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-06-30T20:23:31.769"
+				},
+				"TransactionNumber": "7828510114582668225",
+				"SequenceNumber": 2,
+				"TransactionDateTime": "2026-06-30T20:23:31.769",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "d703f956-b11b-4509-8d4e-38b619463937",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "KC",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/b1pYilgH0byH6UzcI2o81nw1PUTtzmMrpBqIB/fXjI9edR3oCsQBvvJkG0mSlct+40NlWAwvQ4hyYr7AikX+Ve1a/iduyij99Ut22Le7DmKpY/Y9zbEHV0fE6Sy0t4/eY67wNfW5zaMdmjwuQ9R+x4jcH++eTy72gYddYIqR+tP/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/h9T8AnGTFzD7/88bHG/3jf2p22oCPZ0xcHVwjFjdhnvpPXim8tTk5WdIXD4MuhWGUMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIR0pFfPSFVn0l2SNKN84tLIYXl5XFxVPwuh3Oe5y/S2DmN/vek5/zPMM4UY84zkH6129BYuqNCxW4ER74mPUj7CxyvkLfvJkZwiCrtz3/I5OsKcv6aFw8B52AO2sDgTPYt9fkEk6mVBFTmzhBFo+q/JGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93XpG25HTqGSpH+/wSxJgNizJKIJuY5rWLqMYEZi8p0WMY9bVnhiPdgXVjwNwrASATxZi0pyt0STSI/hdZBHV5a9qEdfw65dsPPcrqHeMJ96aGrkx8C26XO/PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsyOysZUgSGyQ3rpmmFscGhsTja6xq+oPa7+UX0edoR6GSORcI+an1AJwJg4CjLlx57ASIvFmz9Gtwi29NV8l7EYCK2iiI7Yr/YQHlAde//Exwvo+ERYg5nNu041/ZEYLs42pynH0BJ7XmlbIWqpXigoR8KxddOVuO7BfG40dmnFWzYkzlQm+J3X0/51Iv+5hTLgL78Y7AenVEVIDQoB3Oz7FBU9iThX4wP3W8ap+sE8nwDBer/uL8/BmounxOBArZUsLRPPf/xQXxBF1SKtDlSVoQjkc8HkV1TJ3jE+gbI7WAZ1ZV/gorlQdsln/11wGkLfdmpxATUwy9vSjpI1n9VxFE4ymOZLf8mLkAdGsTHmwEvR8Gtacde48/WGDGWFkDT12fDIcSUlnhJUXwGIhaI8Fn4hLCL55LG9gyHj24O7jr4pebM8RtKS9s2QAH9OWhd+QGO08+KeeOYX8U6Aj6A/Q==",
+		"msg_submission_time": "2026-06-30T20:23:51.944",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-06-30T20:23:51.945Z",
+		"SPAN_ID": "cc1894029fd46cbd",
+		"APP_ID_TRACE": "com-manh-cp-pix-awgrspr11o-l-pix-6b5d84cb94-b4dtt",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "KC",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-awgrspr11o-l-pix-6b5d84cb94-b4dtt",
+		"TRACE_ID": "4f22e0e0d7ebe143",
+		"ADDITIONAL_ATTRIBUTES": "{\"APIFlowTracing~x-activitystream-url\":\"/api/yard-management/transaction/trailer/checkIn\",\"APIFlowTracing~rootOriginated\":\"/yard/check-in\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-matthew.kern@awginc.com 1782850692273\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"componentScopedOrganization~relevantOrganizationId\":\"1d7bf6b8ef4e381c8f40cf8768f852de4a3b312920c9a36948dcada1ebaf3767\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"activitystream~activityStreamContext\":{\"properties\":{}},\"APIFlowTracing~PreviousComponentSequencePrefix\":\"0.0\",\"activitystream~x-extension-handler-elapsed-time\":1783,\"APIFlowTracing~url-pattern\":\"/api/yard-management/transaction/trailer/checkIn\",\"TXN_IDENTIFIERS~TXN_ID\":\"7828506923364801938\",\"activitystream~x-activity-stream-request-id\":\"e694f387c982c6de473a8f36e6c61f8f\",\"APIFlowTracing~trimmed-url\":\"/transaction/trailer/checkIn\",\"APIFlowTracing~root-url-pattern\":\"/api/dmui-facade/yard/check-in\"}",
+		"TenantId": "awgrspr11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "43321271119011989733429955133854241",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}

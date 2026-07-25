@@ -1,0 +1,23 @@
+
+<test>
+
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="NO" fcltyNbr="11" fcltyNm="NEBRASKA"
+				unitStoreCaseQty="0" whse="xx" />
+		</Facilities>
+	</Explode>
+	
+</test>
+
+

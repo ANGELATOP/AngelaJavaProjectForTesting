@@ -1,0 +1,10 @@
+{
+	"data": {
+		"Timestamp": "2026-06-30.15.25.43.398",
+		"Level": "INFO",
+		"Source": "IIBP1",
+		"Service": "PullAckInvAdjustMsgTrigger",
+		"Status": "INFO",
+		"Message": "CommonLIB Successful Acknowledge SubFlow googleMsgIdPk:acknowledge msgIdPk:43321271119011989733429955133854241 "
+	}
+}

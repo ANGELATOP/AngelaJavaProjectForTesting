@@ -1,0 +1,31 @@
+
+
+
+<Explode explodeEffectiveDate="2026-07-14-05:00"
+	explodeUserid="atoppins" uploadKey="100000609">
+	<ExplodeItems>
+		<ExplodeItem baseHouseZoneRtl="3.99"
+			explodeInputRtl="3.99" explodeItemCode="0010012"
+			explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+	</ExplodeItems>
+	<HouseZones>
+		<HouseZone amountRule="0" desc="Test New Add Zone"
+			explodeSequence="1" isBaseZone="N" percentRule="0.12"
+			pricePointRtl="4.49" roundingHouseZoneRtl="4.47" zone="9960" />
+	</HouseZones>
+	<Facilities>
+		<Facility fcltyCd="KC" fcltyNbr="00" fcltyNm="KANSAS CITY" />
+		<Facility fcltyCd="SP" fcltyNbr="01" fcltyNm="SPRINGFIELD" />
+		<Facility fcltyCd="OK" fcltyNbr="03" fcltyNm="OKLA CITY" />
+		<Facility fcltyCd="GO" fcltyNbr="05" fcltyNm="NASHVILLE" />
+		<Facility fcltyCd="GC" fcltyNbr="06" fcltyNm="GULF COAST" />
+		<Facility fcltyCd="NO" fcltyNbr="11" fcltyNm="NEBRASKA" />
+		<Facility fcltyCd="KE" fcltyNbr="12" fcltyNm="GREAT LAKES" />
+		<Facility fcltyCd="HN" fcltyNbr="14" fcltyNm="MID-SOUTH" />
+		<Facility fcltyCd="SC" fcltyNbr="16" fcltyNm="UPPER MIDWEST" />
+	</Facilities>
+</Explode>
+
+
+
+

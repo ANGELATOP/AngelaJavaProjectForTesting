@@ -1,0 +1,131 @@
+<test>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="KC" fcltyNbr="00" fcltyNm="KANSAS CITY"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="SP" fcltyNbr="01" fcltyNm="SPRINGFIELD"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="OK" fcltyNbr="03" fcltyNm="OKLA CITY"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="GO" fcltyNbr="05" fcltyNm="NASHVILLE"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="GC" fcltyNbr="06" fcltyNm="GULF COAST"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="KE" fcltyNbr="12" fcltyNm="GREAT LAKES"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="HN" fcltyNbr="14" fcltyNm="MID-SOUTH"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+	<Explode explodeEffectiveDate="2026-07-14-05:00"
+		explodeUserid="atoppins" uploadKey="100000609">
+		<ExplodeItems>
+			<ExplodeItem baseHouseZoneRtl="3.99"
+				explodeInputRtl="3.99" explodeItemCode="0010012"
+				explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="5" />
+		</ExplodeItems>
+		<HouseZones>
+			<HouseZone explodeSequence="1" isBaseZone="N"
+				pricePointRtl="4.49" zone="9960" />
+		</HouseZones>
+		<Facilities>
+			<Facility fcltyCd="SC" fcltyNbr="16" fcltyNm="UPPER MIDWEST"
+				isItemActive="0010012" />
+		</Facilities>
+	</Explode>
+
+</test>
