@@ -1,0 +1,110 @@
+{
+	"header": {
+		"messageId": "202607271204120000000094741508",
+		"messageTimestamp": "20260727120412",
+		"FCLTY_CD": "14"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "140347340",
+		"DeliveryDate": "20260727060433",
+		"RLC": [
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "001",
+				"ProdIdent": "0322511",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 576,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "003",
+				"ProdIdent": "0423988",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 30,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "005",
+				"ProdIdent": "0425082",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 120,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "007",
+				"ProdIdent": "0426528",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 30,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "009",
+				"ProdIdent": "0427419",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 270,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "011",
+				"ProdIdent": "0428300",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 90,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "013",
+				"ProdIdent": "0831461",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 30,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140347340",
+				"PoLineIdent": "015",
+				"ProdIdent": "0831487",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 30,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			}
+		]
+	}
+}
