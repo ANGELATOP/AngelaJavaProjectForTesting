@@ -13,7 +13,9 @@ public class ParseFile20260728 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-		process("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
+//		process("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
+//		process("asnVerifyMsg1_po_64922_input.json");
+		process("asnVerifyMsg2_po_91300_input.json");
 		
 //		getKeyInfoAsnVerify("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
 
