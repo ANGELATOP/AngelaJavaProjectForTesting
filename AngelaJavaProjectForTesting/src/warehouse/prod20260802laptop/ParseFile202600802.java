@@ -14,7 +14,8 @@ public class ParseFile202600802 {
 		// TODO Auto-generated method stub
 
 		System.out.println("start");
-		process("ASN Verify PO 65069.json");
+//		process("ASN Verify PO 65069.json");
+		process("AWG ASN 49523.json");
 		
 //		getKeyInfoAsnVerify("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
 
@@ -53,10 +54,10 @@ public class ParseFile202600802 {
 	    for(String x:output){
 	    	temp = new ArrayList<String>();
 	    	
-	    	if(x.contains("ASN_Level")) {
-	    		//skip
-	    	}else
-	    	if(x.contains("ITEM_Level") || x.contains("LPN_Level") )   
+//	    	if(x.contains("ASN_Level")) {
+//	    		//skip
+//	    	}else
+	    	if(x.contains("ITEM_Level") || x.contains("LPN_Level") || x.contains("ASN_Level"))   
 	    	{
 	    		System.out.println( text.toString());
 	    		text = new StringBuilder();
@@ -69,6 +70,11 @@ public class ParseFile202600802 {
 	    		else
 	    		if(x.contains("LPN_Level"))
 		    		text.append(x.trim()+"               ");
+	    		else
+	    		if(x.contains("ASN_Level")) {
+	    			System.out.println(" ");
+		    		text.append(x.trim()+"               ");
+	    		}
 	    		else
 	    		    text.append("Unknown Message Type");
 
@@ -83,6 +89,7 @@ public class ParseFile202600802 {
 	    	
 	    	if(x.contains("ASN_Level")) {
 	    		//skip
+	    		//currRec=false;
 	    	}else
 	    	if(currRec==true) {
 	    		if(x.contains("ItemId")){
@@ -102,7 +109,7 @@ public class ParseFile202600802 {
 //   	    	   x.contains("AttributeName")  || 
 //		    	   x.contains("AttributeValue")  || 
 //		    	   x.contains("AttributeUom")  || 
-//		    	   x.contains("UnitsShipped")  || 
+		    	   x.contains("UnitsShipped")  || 
 		    	   x.contains("UnitsReceived")) {
 		    		elementCnter=elementCnter+1;
 
@@ -110,24 +117,24 @@ public class ParseFile202600802 {
 		    		list.add(x.trim());
 		    		totalAttributes=totalAttributes+1;
 		    	}
-		    	if(x.contains("AsnSequenceNumber")) {
-		    		if(currMsg.contains("LPN_Level")) {
-			    		elementCnter=elementCnter+1;
-
-			    		text.append(rightPadd(x.trim(),30));
-			    		list.add(x.trim());
-			    		totalAttributes=totalAttributes+1;
-		    			
-		    		}else
-		    		{
-			    		elementCnter=elementCnter+1;
-
-			    		text.append(rightPadd(x.trim(),30));
-			    		list.add(x.trim());
-			    		totalAttributes=totalAttributes+1;
-		    			
-		    		}
-		    	} 
+//		    	if(x.contains("AsnSequenceNumber")) {
+//		    		if(currMsg.contains("LPN_Level")) {
+//			    		elementCnter=elementCnter+1;
+//
+//			    		text.append(rightPadd(x.trim(),30));
+//			    		list.add(x.trim());
+//			    		totalAttributes=totalAttributes+1;
+//		    			
+//		    		}else
+//		    		{
+//			    		elementCnter=elementCnter+1;
+//
+//			    		text.append(rightPadd(x.trim(),30));
+//			    		list.add(x.trim());
+//			    		totalAttributes=totalAttributes+1;
+//		    			
+//		    		}
+//		    	} 
 	    	}
    	  }
 	    
