@@ -1,0 +1,28 @@
+
+The inventory qty outputed zero for all items which is correct.  Not sure what the issue was that Erick F and Hari are talking about. 
+Looks like David thought it was correct as zero qty as well.
+
+At this time, I will just wait and see if anymore is said about it in the chat.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Here are the key info for the input message.
+
+"PIXSpecification": "LPN_Level",               "ItemId": "0038453",    "ItemId": "0038453",          "UnitsReceived": "0",         
+
+"PIXSpecification": "LPN_Level",               "ItemId": "0038462",    "ItemId": "0038462",          "UnitsReceived": "0",         
+"PIXSpecification": "ITEM_Level",              "ItemId": "0038462",    "ItemId": "0038462",          "AsnSequenceNumber": "003",   "UnitsReceived": "0",         
+"PIXSpecification": "LPN_Level",               "ItemId": "0038462",    "ItemId": "0038462",          "UnitsReceived": "0",         
+
+"PIXSpecification": "ITEM_Level",              "ItemId": "0199588",    "ItemId": "0199588",          "AsnSequenceNumber": "007",   "UnitsReceived": "0",         "UnitsReceived": "0",         
+
+"PIXSpecification": "LPN_Level",               "ItemId": "0038462",    "ItemId": "0038462",          "UnitsReceived": "0",         
+
+"PIXSpecification": "ITEM_Level",              "ItemId": "0038453",    "ItemId": "0038453",          "AsnSequenceNumber": "001",   "UnitsReceived": "0",         
+
+"PIXSpecification": "LPN_Level",               "ItemId": "0038462",    "ItemId": "0038462",          "UnitsReceived": "0",         
+
+"PIXSpecification": "ITEM_Level",              "ItemId": "0063928",    "ItemId": "0063928",          "AsnSequenceNumber": "005",   "UnitsReceived": "0",         
+"PIXSpecification": "LPN_Level",               "ItemId": "0063928",    "ItemId": "0063928",          "UnitsReceived": "0",         
+
+"PIXSpecification": "LPN_Level",               "ItemId": "0199588",    "ItemId": "0199588",          "UnitsReceived": "0",         
