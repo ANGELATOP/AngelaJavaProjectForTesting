@@ -1,0 +1,259 @@
+{
+	"ContextInformation": {
+		"Location": "KC",
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": {
+		"Item": {
+			"Messages": null,
+			"PIXSpecification": "ITEM_Level",
+			"Description": "ItemLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0556103",
+				"Description": "RSTVSFDKMEDPGBG2OZ"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "ruth.turner@awginc.com",
+				"OriginalOrderId": "",
+				"AsnLineId": "011",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"LpnDetailId": {
+				},
+				"AsnId": "00013715220260709153632",
+				"AsnSequenceNumber": "011",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"IlpnId": {
+				},
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "28.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-07-28T18:36:00.867",
+				"UpdatedTimestamp": "2026-07-28T18:38:06.594",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-07-28T18:36:00.809"
+			},
+			"InventoryAttributes": {
+			},
+			"TransactionNumber": "7852637608182106671",
+			"SequenceNumber": 2,
+			"TransactionDateTime": "2026-07-28T18:36:00.809",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		"Item": {
+			"Messages": null,
+			"PIXSpecification": "ITEM_Level",
+			"Description": "ItemLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0556103",
+				"Description": "RSTVSFDKMEDPGBG2OZ"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "2027-11-01",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "ruth.turner@awginc.com",
+				"OriginalOrderId": "",
+				"AsnLineId": "011",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"LpnDetailId": {
+				},
+				"AsnId": "00013715220260709153632",
+				"AsnSequenceNumber": "011",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"IlpnId": {
+				},
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "20.0",
+				"CreatedTimestamp": "2026-07-28T18:36:01.353",
+				"UpdatedTimestamp": "2026-07-28T18:38:06.596",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-07-28T18:36:00.809"
+			},
+			"InventoryAttributes": {
+			},
+			"TransactionNumber": "7852637608182106671",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-07-28T18:36:00.809",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		"Item": {
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": {
+				},
+				"Season": {
+				},
+				"SeasonYear": {
+				},
+				"Style": {
+				},
+				"StyleSuffix": {
+				},
+				"Color": {
+				},
+				"ColorSuffix": {
+				},
+				"SecondDimension": {
+				},
+				"SizeCode": {
+				},
+				"SizeDescription": {
+				},
+				"ItemId": {
+				},
+				"Description": {
+				}
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": {
+				},
+				"InventoryTypeId": {
+				},
+				"ProductStatusId": {
+				},
+				"ItemBatchNumberId": {
+				},
+				"InventoryAttribute1": {
+				},
+				"InventoryAttribute2": {
+				},
+				"InventoryAttribute3": {
+				},
+				"InventoryAttribute4": {
+				},
+				"InventoryAttribute5": {
+				},
+				"ExpirationDate": {
+				},
+				"ManufactureDate": {
+				}
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "ruth.turner@awginc.com",
+				"OriginalOrderId": {
+				},
+				"AsnLineId": {
+				},
+				"PurchaseOrderId": {
+				},
+				"AlternatePurchaseOrderId": {
+				},
+				"PurchaseOrderLineId": {
+				},
+				"LpnDetailId": {
+				},
+				"AsnId": "00013715220260709153632",
+				"AsnSequenceNumber": {
+				},
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"IlpnId": {
+				},
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "10",
+				"iLPNsReceived": "10",
+				"UnitsShipped": "281.0000",
+				"UnitsReceived": "273.0000",
+				"CreatedTimestamp": "2026-07-28T18:36:00.872",
+				"UpdatedTimestamp": "2026-07-28T18:38:06.595",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-07-28T18:36:00.809"
+			},
+			"InventoryAttributes": {
+			},
+			"TransactionNumber": "7852637608182106671",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-07-28T18:36:00.809",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	},
+	"UniqueJobId": "10a56335-8317-4e8e-b6a7-656fb5c6d421",
+	"TotalPages": 1
+}

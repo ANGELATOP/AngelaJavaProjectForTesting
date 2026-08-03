@@ -1,0 +1,90 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": {
+		"Item": {
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0032645"
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": "011",
+				"UnitsShipped": "50.0",
+				"UnitsReceived": "0"
+			}
+		},
+		"Item": {
+			"PIXSpecification": "LPN_Level",
+			"ItemDefinition": {
+				"ItemId": "0032645"
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": {
+				},
+				"UnitsShipped": "50.0",
+				"UnitsReceived": "0"
+			}
+		},
+		"Item": {
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0271005"
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": "053",
+				"UnitsShipped": "0",
+				"UnitsReceived": "192.0"
+			}
+		},
+		"Item": {
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0271005"
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": "053",
+				"UnitsShipped": "216.0",
+				"UnitsReceived": "0"
+			}
+		},
+		"Item": {
+			"PIXSpecification": "LPN_Level",
+			"ItemDefinition": {
+				"ItemId": "0271005"
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": {
+				},
+				"UnitsShipped": "24.0",
+				"UnitsReceived": "0"
+			}
+		},
+		"Item": {
+			"PIXSpecification": "ASN_Level",
+			"ItemDefinition": {
+				"ItemId": {
+				}
+			},
+			"PIXFields": {
+				"AsnId": "00013998820260713105622",
+				"AsnSequenceNumber": {
+				},
+				"UnitsShipped": "3771.0000",
+				"UnitsReceived": "3697.0000"
+			}
+		}
+	},
+	"UniqueJobId": "63690aea-42ab-43f2-b917-d6686bd61cf5",
+	"TotalPages": 1
+}

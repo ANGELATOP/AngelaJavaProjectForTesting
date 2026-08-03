@@ -1,0 +1,83 @@
+{
+	"googleMsgID": "9867845384013588731534094437959645",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "ITEM_Level",
+			"Description": "ItemLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0108222",
+				"Description": "JSFBKYRDBBQCHCKEN15OZ"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "001",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"IsCustomerOrderBlindReturn": "false",
+				"AsnLevelId": "LPN",
+				"CreatedBy": "gsnyder@awginc.com",
+				"OriginalOrderId": "",
+				"OriginalOrderLineId": "",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"AsnId": "00059060020260715122645",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "15.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-07-29T12:34:41.057",
+				"UpdatedTimestamp": "2026-07-29T12:34:58.839",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-07-29T12:34:40.943"
+			},
+			"TransactionNumber": "7853284809616306271",
+			"SequenceNumber": 2,
+			"TransactionDateTime": "2026-07-29T12:34:40.943",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "2e0424b3-4487-4a65-a8fd-c6e96766a499",
+	"TotalPages": 1
+}
