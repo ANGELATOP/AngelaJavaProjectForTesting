@@ -15,7 +15,8 @@ public class ParseFile202600802 {
 
 		System.out.println("start");
 //		process("ASN Verify PO 65069.json");
-		process("AWG ASN 49523.json");
+//		process("AWG ASN 49523.json");
+		process("ASN Verify PO 92303 SORTED.json");
 		
 //		getKeyInfoAsnVerify("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
 
@@ -103,12 +104,22 @@ public class ParseFile202600802 {
 	    			}
 	    			
 	    		}
-		    	if(x.contains("ItemId") || 
+	    		if(x.contains("AttributeValue")) {
+	    			text.append(rightPadd(x.trim(),38));
+		    		list.add(x.trim());	    			
+	    		}else
+		    	if(x.contains("ItemIdxxx") || 
 //		    	   x.contains("AsnSequenceNumber")  ||        //commented out so I can focuse on the fields I care about
 //		    	   x.contains("AsnId")  || 
 //   	    	   x.contains("AttributeName")  || 
 //		    	   x.contains("AttributeValue")  || 
 //		    	   x.contains("AttributeUom")  || 
+		    			
+		    	   x.contains("CATCH_WEIGHT")  || 
+//		    	   x.contains("AttributeValue")  || 
+
+		    	   x.contains("AttributeUom")  || 
+
 		    	   x.contains("UnitsShipped")  || 
 		    	   x.contains("UnitsReceived")) {
 		    		elementCnter=elementCnter+1;
