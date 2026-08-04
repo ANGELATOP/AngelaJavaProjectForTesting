@@ -1,9 +1,9 @@
-package warehouse.prod20260802laptop;
+package warehouse.prod20260804laptop;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParseFile202600802 {
+public class ParseFile202600804 {
 
 //	static String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\input\\";
 	
