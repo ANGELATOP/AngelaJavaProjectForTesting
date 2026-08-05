@@ -3,7 +3,7 @@ package warehouse.prod20260804laptop;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParseFile202600804 {
+public class ParseFile202600804_orig {
 
 //	static String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\input\\";
 	
@@ -11,13 +11,8 @@ public class ParseFile202600804 {
 	static String outputDir = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260804laptop\\";
 
 	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
 
-		//Useful Sort Utility
-		//Use the ACE flow to sort the input manhattan message by itemId so you don't have to manually sort it yourself after running this utility.
-
-		//Anotgher option, is run the ACE AsnVerifyParseInputMsg.msgflow.  It will sort by itemId and then summarize similar console as the one that
-		//this java utility will do.
-		
 		System.out.println("start");
 //		process("ASN Verify PO 65069.json");
 		process("91599AsnVerify.jsonSorted.json");
@@ -68,23 +63,23 @@ public class ParseFile202600804 {
 	    		text = new StringBuilder();
 	    		
 	    		if(x.contains("CatchWeight_ITEM_Level"))
-	    		    text.append(rightPadd(x.trim(),47));
+	    		    text.append(x.trim()+"  ");
 	    		else
 	    		if(x.contains("ITEM_Level"))
-	    		    text.append(rightPadd(x.trim(),47));
+	    		    text.append(x.trim()+"              ");
 	    		else
 	    		if(x.contains("LPN_Level"))
-		    		text.append(rightPadd(x.trim(),47));
+		    		text.append(x.trim()+"               ");
 	    		else
 	    		if(x.contains("ASN_Level")) {
 	    			System.out.println(" ");
-		    		text.append(rightPadd(x.trim(),47));
+		    		text.append(x.trim()+"               ");
 	    		}
 	    		else
 	    		    text.append("Unknown Message Type");
 
 	    		
-	    		list.add(x);
+	    		list.add(x.trim());
 	    		currRec=true;
 	    		currMsg=x.trim();
 	    		
@@ -99,44 +94,46 @@ public class ParseFile202600804 {
 	    	if(currRec==true) {
 	    		if(x.contains("ItemId")){
 	    			if(x.contains(previousItemId)) {
-		    		text.append(rightPadd(x.trim(),23));
+		    		text.append(x.trim()+"    ");
 	    			}
 	    			else {
 	    				System.out.println(""); //blank line break
 	    				previousItemId=x;
-			    		text.append(rightPadd(x.trim(),23));
+			    		text.append(x.trim()+"    ");
 	    			}
 	    			
-	    		}else
-		    	if(x.contains("UnitsShipped")) {
-		    		text.append(rightPadd(x.trim(),25));
-			    	list.add(x.trim());	    			
-		    	}else
-		    	if(x.contains("UnitsReceived")) {//this is the PoLineQty
-		    		text.append(rightPadd(x.trim(),25));
-			    	list.add(x.trim());	    			
-		    	}else
-		    	if(x.contains("AttributeUom")) {
-		    		text.append(rightPadd(x.trim(),25));
-			    	list.add(x.trim());	    			
-		    	}else
-	    		if(x.contains("AsnSequenceNumber")) {
-//	    			text.append(rightPadd(x.trim(),43));
-//		    		list.add(x.trim());	    			
-	    		}else
-	    		if(x.contains("SequenceNumber")) {
-	    			text.append(rightPadd(x.trim(),25));
-		    		list.add(x.trim());	    			
-	    		}else
+	    		}
 //	    		if(x.contains("CATCH_WEIGHT")) {
 	    		if(x.contains("AttributeName")) {
-	    			text.append(rightPadd(x.trim(),34));
+	    			text.append(rightPadd(x.trim(),43));
 		    		list.add(x.trim());	    			
 	    		}else
 	    		if(x.contains("AttributeValue")) {
-	    			text.append(rightPadd(x.trim(),36));
+	    			text.append(rightPadd(x.trim(),38));
 		    		list.add(x.trim());	    			
-	    		}
+	    		}else
+		    	if(x.contains("ItemIdxxx") || 
+//		    	   x.contains("AsnSequenceNumber")  ||        //commented out so I can focuse on the fields I care about
+//		    	   x.contains("AsnId")  || 
+//   	    	   x.contains("AttributeName")  || 
+//		    	   x.contains("AttributeValue")  || 
+//		    	   x.contains("AttributeUom")  || 
+
+		    	   x.contains("SequenceNumber")  || 
+
+//		    	   x.contains("CATCH_WEIGHT")  || 
+//		    	   x.contains("AttributeValue")  || 
+
+		    	   x.contains("AttributeUom")  || 
+
+		    	   x.contains("UnitsShipped")  || 
+		    	   x.contains("UnitsReceived")) {
+		    		elementCnter=elementCnter+1;
+
+		    		text.append(rightPadd(x.trim(),30));
+		    		list.add(x.trim());
+		    		totalAttributes=totalAttributes+1;
+		    	}
 //		    	if(x.contains("AsnSequenceNumber")) {
 //		    		if(currMsg.contains("LPN_Level")) {
 //			    		elementCnter=elementCnter+1;
