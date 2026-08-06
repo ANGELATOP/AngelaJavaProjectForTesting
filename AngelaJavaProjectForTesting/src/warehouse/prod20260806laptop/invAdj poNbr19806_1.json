@@ -1,0 +1,88 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "CREATE_ILPN",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0372888",
+				"Description": "MCGROUNDNUTMEG1.1OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2028-09-25",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "chris.winter@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "28",
+				"Quantity": "28",
+				"AdjustedWeight": "19.6",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "A01765601",
+				"LocationId": "",
+				"ReasonCodeId": "R",
+				"ReferenceText": "19806",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": []
+					},
+					{
+						"FromConditionCodes": []
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-08-05T15:02:54.441",
+				"UpdatedTimestamp": "2026-08-05T15:03:29.108",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-05T15:01:36.917"
+			},
+			"TransactionNumber": "7859421744416865555",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-08-05T15:01:36.917",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "c0824309-165c-4bd1-a1aa-bfd0b5fe987f"
+}

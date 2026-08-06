@@ -1,6 +1,7 @@
 package warehouse.prod20260804laptop;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class ParseFile202600804 {
@@ -10,6 +11,8 @@ public class ParseFile202600804 {
 	static String directory = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260804laptop\\";
 	static String outputDir = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260804laptop\\";
 
+	static HashMap<String,String> totalItems = new HashMap<String,String>();
+	
 	public static void main(String[] args) throws Exception {
 
 		//Useful Sort Utility
@@ -19,12 +22,30 @@ public class ParseFile202600804 {
 		//this java utility will do.
 		
 		System.out.println("start");
-//		process("ASN Verify PO 65069.json");
-		process("91599AsnVerify.jsonSorted.json");
+		
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+		//text summary of specific attributes, message per line
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+//		process("ASN Verify PO 65069.json");  //4 items received
+//		process("91599AsnVerify.jsonSorted.json");  //14 items received
+//		process("ASN Verify PO 92303 SORTED_hasCATCH_WEIGHT.json"); //10 items received
+//		process("20260805_asnVerify po 19806.json");  //30 items received
 		
 //		getKeyInfoAsnVerify("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
 
-//		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+		//partial json sort of format
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+//		getKeyInfoAsnVerifySpecificMessages("20260805_asnVerify po 19806_item0372888.json","\"ItemId\": \"0372888\"");
+//		getKeyInfoAsnVerifySpecificMessages("20260805_asnVerify po 19806.json","\"ItemId\": \"0139352\"");
+//		getKeyInfoAsnVerifySpecificMessages("ASN Verify PO 92303 SORTED_hasCATCH_WEIGHT.json","\"ItemId\": \"0010852\"");
+		
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+		//partial json sort of format
+		//-------------------------------------------------------------------------------------------------------------------------------------------------
+		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("20260805_asnVerify po 19806.json","\"ItemId\": \"0372888\"");
+//		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("ASN Verify 64820 has catchWeightMsgs SORTED.json","\"ItemId\": \"0046747\"");
+//		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("ASN Verify PO 92303 SORTED_hasCATCH_WEIGHT.json","\"ItemId\": \"0010852\"");
 
 //		getKeyInfoInvAdjust("2026-04-02 group 1b - invAdjust manhattan msg.json");	
 		System.out.println("stop");
@@ -98,6 +119,8 @@ public class ParseFile202600804 {
 	    	}else
 	    	if(currRec==true) {
 	    		if(x.contains("ItemId")){
+	    			totalItems.put(x, x);  //get count of total items
+	    			
 	    			if(x.contains(previousItemId)) {
 		    		text.append(rightPadd(x.trim(),23));
 	    			}
@@ -162,6 +185,11 @@ public class ParseFile202600804 {
     	//display last row
 		System.out.println(text.toString());
 
+		System.out.println(" ");
+		System.out.println("--------------------------------------------------------------------------------------- ");
+//		totalItems.forEach((k, v) -> System.out.println((k + ":" + v)));  //this is a forEach and lambda expression for Java 8
+		totalItems.forEach((k, v) -> System.out.println((v)));  //this is a forEach and lambda expression for Java 8\
+		System.out.println("-----------------total of items for this asn verify message = "+totalItems.size());
 		
 //    	for(String t:list)
 //    		System.out.println(t);
@@ -197,8 +225,11 @@ public class ParseFile202600804 {
 		List<String> specificMessage = new ArrayList<String>();
 		boolean foundSpecificMessage = false;
 		
+		int totalMsgsForItem=0;
+		
 	    for(String x:output){
 	    	if(x.contains("Messages")) {
+	    		
 	    		//new message group
 //	    		System.out.println("\"----------------------------------------------- ");//add blank line
 	    		skip = false;
@@ -211,12 +242,13 @@ public class ParseFile202600804 {
 	    		specificMessage = new ArrayList<String>();
 	    		foundSpecificMessage = false;
 	    	}else
-	    	if(x.contains("LPN_Level")) {
-	    		skip = true; //no need to view this data
-	    	}else
+//	    	if(x.contains("LPN_Level")) {
+//	    		skip = true; //no need to view this data, aof 8-6-2026 this message is now used in asn verify
+//	    	}else
 	    	if(x.contains(criteria)){
 	    		foundSpecificMessage=true;
 	    		specificMessage.add(x);	
+	    		totalMsgsForItem=totalMsgsForItem+1; //total of messages for specific criteria such as itemId
 	    	}else
 	    	if(skip==false){
 	    		specificMessage.add(x);	
@@ -230,7 +262,66 @@ public class ParseFile202600804 {
 				System.out.println(t);
 			}
 		}
-	    
+	    System.out.println("--------------Total Messages for "+criteria+"  "+totalMsgsForItem);
+	}	
+	public static void getKeyInfoAsnVerifySpecificMessagesSpecificAttributes(String googleFileNm, String criteria) throws Exception {
+		//get the info that I need to look at
+		
+		List<String> output = RetrieveTextFile.retrieveTextFile(directory+googleFileNm);
+		boolean skip = false;
+		
+		
+		List<String> specificMessage = new ArrayList<String>();
+		boolean foundSpecificMessage = false;
+		
+		int totalMsgsForItem=0;
+		
+	    for(String x:output){
+	    	if(x.contains("Messages")) {
+	    		
+	    		//new message group
+//	    		System.out.println("\"----------------------------------------------- ");//add blank line
+	    		skip = false;
+	    		if(foundSpecificMessage==true) {
+	    			for(String t:specificMessage) {
+//	    				displayInfo(t);
+	    				if(t.contains("PIXSpecification")) {
+	    					System.out.println("----------------------------------------------------------------------------------------------------------------------- "); //line break
+	    				}
+	    				if(t.contains("PIXSpecification") 
+//	    						|| t.contains("\"Description\"")|| t.contains("SourceTransactionType")|| t.contains("SourceEventName")
+	    						|| t.contains("\"ItemDefinition\"")|| t.contains("\"ItemId\"")
+	    						|| t.contains("\"PIXFields\"")|| t.contains("\"AsnId\"")
+	    						|| t.contains("\"UnitsShipped\"")|| t.contains("\"UnitsReceived\"")
+	    						|| t.contains("\"InventoryAttributes\"")|| t.contains("\"AttributeName\"") || t.contains("\"AttributeValue\"") 
+	    						|| t.contains("\"AttributeUom\"")|| t.contains("\"ABC\"")|| t.contains("\"ABC\""))
+	    				System.out.println(t);
+	    			}
+        		}
+	    		specificMessage = new ArrayList<String>();
+	    		foundSpecificMessage = false;
+	    	}else
+//	    	if(x.contains("LPN_Level")) {
+//	    		skip = true; //no need to view this data, aof 8-6-2026 this message is now used in asn verify
+//	    	}else
+	    	if(x.contains(criteria)){
+	    		foundSpecificMessage=true;
+	    		specificMessage.add(x);	
+	    		totalMsgsForItem=totalMsgsForItem+1; //total of messages for specific criteria such as itemId
+	    	}else
+	    	if(skip==false){
+	    		specificMessage.add(x);	
+	    	}
+
+   	    }
+	    //get last set
+		if(foundSpecificMessage==true) {
+			for(String t:specificMessage) {
+//				displayInfo(t);
+				System.out.println(t);
+			}
+		}
+	    System.out.println("--------------Total Messages for "+criteria+"  "+totalMsgsForItem);
 	}	
 	private static void displayInfo(String x) throws Exception {
 		List temp = new ArrayList();
