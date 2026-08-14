@@ -1,0 +1,58 @@
+{
+	"header": {
+		"messageId": "AWG VIEW",
+		"FCLTY_CD": "00",
+		"WHSE_CD": "03",
+		"PO_NBR": "65217",
+		"transfer_PO_NBR": "5217"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "000365217",
+		"DeliveryDate": "20260807053730",
+		"RLC": [
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "000365217",
+				"PoLineIdent": "001",
+				"ProdIdent": "0010880",
+				"SupNum": "00033940004",
+				"HstaccInvsts": null,
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "84",
+				"awgQtyHost": "144",
+				"qtyDiff": "abc",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0,
+				"RCVD_QTY": [
+					{
+						"rcvdQty": 0
+					}
+				]
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "000365217",
+				"PoLineIdent": "003",
+				"ProdIdent": "0010900",
+				"SupNum": "00033940004",
+				"HstaccInvsts": null,
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "24",
+				"awgQtyHost": "24",
+				"qtyDiff": "abc",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0,
+				"RCVD_QTY": [
+					{
+						"rcvdQty": 0
+					}
+				]
+			}
+		]
+	}
+}

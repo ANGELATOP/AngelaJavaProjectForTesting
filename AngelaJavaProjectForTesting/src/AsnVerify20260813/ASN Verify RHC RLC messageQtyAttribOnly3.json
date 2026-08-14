@@ -1,0 +1,186 @@
+{
+	"RHC": {
+		"RLC": [
+			{
+				"ProdIdent": "0110774",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0110774"
+			},
+			{
+				"ProdIdent": "0139352",
+				"QtyHost": "600",
+				"awgQtyHost": "600",
+				"qtyDiff": "Item Code:0139352"
+			},
+			{
+				"ProdIdent": "0171801",
+				"QtyHost": "1260",
+				"awgQtyHost": "1056",
+				"qtyDiff": "Item Code:0171801   Review Item - Received qty difference between Manhattan(1260) and AWG(1056)"
+			},
+			{
+				"ProdIdent": "0213786",
+				"QtyHost": "240",
+				"awgQtyHost": "220",
+				"qtyDiff": "Item Code:0213786   Review Item - Received qty difference between Manhattan(240) and AWG(220)"
+			},
+			{
+				"ProdIdent": "0251470",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0251470"
+			},
+			{
+				"ProdIdent": "0241588",
+				"QtyHost": "600",
+				"awgQtyHost": "600",
+				"qtyDiff": "Item Code:0241588"
+			},
+			{
+				"ProdIdent": "0254946",
+				"QtyHost": "140",
+				"awgQtyHost": 140,
+				"qtyDiff": "Item Code:0254946"
+			},
+			{
+				"ProdIdent": "0276485",
+				"QtyHost": "840",
+				"awgQtyHost": "840",
+				"qtyDiff": "Item Code:0276485"
+			},
+			{
+				"ProdIdent": "0276494",
+				"QtyHost": "180",
+				"awgQtyHost": "780",
+				"qtyDiff": "Item Code:0276494   Review Item - Received qty difference between Manhattan(180) and AWG(780)"
+			},
+			{
+				"ProdIdent": "0303071",
+				"QtyHost": "384",
+				"awgQtyHost": "384",
+				"qtyDiff": "Item Code:0303071"
+			},
+			{
+				"ProdIdent": "0315051",
+				"QtyHost": "0",
+				"awgQtyHost": 2016,
+				"qtyDiff": "Item Code:0315051   Review Item - Received qty difference between Manhattan(0) and AWG(2016)"
+			},
+			{
+				"ProdIdent": "0320200",
+				"QtyHost": "660",
+				"awgQtyHost": "780",
+				"qtyDiff": "Item Code:0320200   Review Item - Received qty difference between Manhattan(660) and AWG(780)"
+			},
+			{
+				"ProdIdent": "0336271",
+				"QtyHost": "168",
+				"awgQtyHost": 168,
+				"qtyDiff": "Item Code:0336271"
+			},
+			{
+				"ProdIdent": "0342098",
+				"QtyHost": "0",
+				"awgQtyHost": 540,
+				"qtyDiff": "Item Code:0342098   Review Item - Received qty difference between Manhattan(0) and AWG(540)"
+			},
+			{
+				"ProdIdent": "0372466",
+				"QtyHost": "336",
+				"awgQtyHost": "-252",
+				"qtyDiff": "Item Code:0372466   Review Item - Received qty difference between Manhattan(336) and AWG(-252)"
+			},
+			{
+				"ProdIdent": "0372888",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0372888"
+			},
+			{
+				"ProdIdent": "0373332",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0373332"
+			},
+			{
+				"ProdIdent": "0373495",
+				"QtyHost": "420",
+				"awgQtyHost": "1020",
+				"qtyDiff": "Item Code:0373495   Review Item - Received qty difference between Manhattan(420) and AWG(1020)"
+			},
+			{
+				"ProdIdent": "0373496",
+				"QtyHost": "960",
+				"awgQtyHost": "960",
+				"qtyDiff": "Item Code:0373496"
+			},
+			{
+				"ProdIdent": "0373563",
+				"QtyHost": "0",
+				"awgQtyHost": 672,
+				"qtyDiff": "Item Code:0373563   Review Item - Received qty difference between Manhattan(0) and AWG(672)"
+			},
+			{
+				"ProdIdent": "0373639",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0373639"
+			},
+			{
+				"ProdIdent": "0373829",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0373829"
+			},
+			{
+				"ProdIdent": "0374272",
+				"QtyHost": "0",
+				"awgQtyHost": "0",
+				"qtyDiff": "Item Code:0374272"
+			},
+			{
+				"ProdIdent": "0374454",
+				"QtyHost": "480",
+				"awgQtyHost": "480",
+				"qtyDiff": "Item Code:0374454"
+			},
+			{
+				"ProdIdent": "0374488",
+				"QtyHost": "160",
+				"awgQtyHost": 160,
+				"qtyDiff": "Item Code:0374488"
+			},
+			{
+				"ProdIdent": "0474004",
+				"QtyHost": "960",
+				"awgQtyHost": "960",
+				"qtyDiff": "Item Code:0474004"
+			},
+			{
+				"ProdIdent": "0474006",
+				"QtyHost": "780",
+				"awgQtyHost": "780",
+				"qtyDiff": "Item Code:0474006"
+			},
+			{
+				"ProdIdent": "0474008",
+				"QtyHost": "720",
+				"awgQtyHost": "720",
+				"qtyDiff": "Item Code:0474008"
+			},
+			{
+				"ProdIdent": "0512332",
+				"QtyHost": "288",
+				"awgQtyHost": "288",
+				"qtyDiff": "Item Code:0512332"
+			},
+			{
+				"ProdIdent": "0323832",
+				"QtyHost": "180",
+				"awgQtyHost": "180",
+				"qtyDiff": "Item Code:0323832"
+			}
+		]
+	}
+}

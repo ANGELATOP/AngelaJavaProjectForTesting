@@ -1,0 +1,138 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"header": {
+			"type": "object",
+			"properties": {
+				"messageId": {
+					"type": "string"
+				},
+				"FCLTY_CD": {
+					"type": "string"
+				},
+				"WHSE_CD": {
+					"type": "string"
+				},
+				"PO_NBR": {
+					"type": "string"
+				},
+				"transfer_PO_NBR": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"messageId",
+				"FCLTY_CD",
+				"WHSE_CD",
+				"PO_NBR",
+				"transfer_PO_NBR"
+			]
+		},
+		"RHC": {
+			"type": "object",
+			"properties": {
+				"Owner": {
+					"type": "string"
+				},
+				"PoIdent": {
+					"type": "string"
+				},
+				"DeliveryDate": {
+					"type": "string"
+				},
+				"RLC": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"Owner": {
+								"type": "string"
+							},
+							"PoIdent": {
+								"type": "string"
+							},
+							"PoLineIdent": {
+								"type": "string"
+							},
+							"ProdIdent": {
+								"type": "string"
+							},
+							"SupNum": {
+								"type": "string"
+							},
+							"HstaccInvsts": {
+								"type": "object"
+							},
+							"UM": {
+								"type": "string"
+							},
+							"Orderkey": {
+								"type": "string"
+							},
+							"QtyHost": {
+								"type": "string"
+							},
+							"awgQtyHost": {
+								"type": "string"
+							},
+							"qtyDiff": {
+								"type": "string"
+							},
+							"Qstate": {
+								"type": "number"
+							},
+							"BatchNo": {
+								"type": "string"
+							},
+							"zzTotalCatchWeight": {
+								"type": "number"
+							},
+							"RCVD_QTY": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"rcvdQty": {
+											"type": "number"
+										}
+									},
+									"required": [
+										"rcvdQty"
+									]
+								}
+							}
+						},
+						"required": [
+							"Owner",
+							"PoIdent",
+							"PoLineIdent",
+							"ProdIdent",
+							"SupNum",
+							"HstaccInvsts",
+							"UM",
+							"Orderkey",
+							"QtyHost",
+							"awgQtyHost",
+							"qtyDiff",
+							"Qstate",
+							"BatchNo",
+							"zzTotalCatchWeight",
+							"RCVD_QTY"
+						]
+					}
+				}
+			},
+			"required": [
+				"Owner",
+				"PoIdent",
+				"DeliveryDate",
+				"RLC"
+			]
+		}
+	},
+	"required": [
+		"header",
+		"RHC"
+	]
+}

@@ -1,0 +1,9 @@
+
+
+Latest schema aof 8-13-2026 used in the ASN Verify ACE flow.
+RHC_RLC_message.schema.json
+
+ASN Verify RHC RLC message1.json --results after getPoQtyRcvd.map
+ASN Verify RHC RLC message2.json --results after sumPoQtyRcvd.map
+ASN Verify RHC RLC message3.json --results after flagPoLineQtyDiff.map
+

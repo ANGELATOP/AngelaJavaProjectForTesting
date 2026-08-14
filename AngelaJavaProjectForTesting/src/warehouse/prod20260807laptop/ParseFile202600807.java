@@ -1,15 +1,15 @@
-package warehouse.prod20260804laptop;
+package warehouse.prod20260807laptop;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class ParseFile202600804 {
+public class ParseFile202600807 {
 
 //	static String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\input\\";
 	
-	static String directory = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260804laptop\\";
-	static String outputDir = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260804laptop\\";
+	static String directory = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260807laptop\\";
+	static String outputDir = "C:\\Users\\atopp\\Documents\\eclipseWorkspace202607_git\\AngelaJavaProjectForTesting\\AngelaJavaProjectForTesting\\src\\warehouse\\prod20260807laptop\\";
 
 	static HashMap<String,String> totalItems = new HashMap<String,String>();
 	
@@ -26,10 +26,7 @@ public class ParseFile202600804 {
 		//-------------------------------------------------------------------------------------------------------------------------------------------------
 		//text summary of specific attributes, message per line
 		//-------------------------------------------------------------------------------------------------------------------------------------------------
-//		process("ASN Verify PO 65069.json");  //4 items received
-//		process("91599AsnVerify.jsonSorted.json");  //14 items received
-		process("ASN Verify PO 92303 SORTED_hasCATCH_WEIGHT.json"); //10 items received
-//		process("20260805_asnVerify po 19806.json");  //30 items received
+		process("asnVerify manhattanMsg poi 65217.json");  //20 items received
 		
 //		getKeyInfoAsnVerify("asnVerifyMsg3_po_23962_hasDeletedPoLines.json");
 
@@ -43,9 +40,7 @@ public class ParseFile202600804 {
 		//-------------------------------------------------------------------------------------------------------------------------------------------------
 		//partial json sort of format
 		//-------------------------------------------------------------------------------------------------------------------------------------------------
-		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("20260805_asnVerify po 19806.json","\"ItemId\": \"0372888\"");
-//		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("ASN Verify 64820 has catchWeightMsgs SORTED.json","\"ItemId\": \"0046747\"");
-//		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("ASN Verify PO 92303 SORTED_hasCATCH_WEIGHT.json","\"ItemId\": \"0010852\"");
+		getKeyInfoAsnVerifySpecificMessagesSpecificAttributes("asnVerify manhattanMsg poi 65217.json","\"ItemId\": \"0372888\"");
 
 //		getKeyInfoInvAdjust("2026-04-02 group 1b - invAdjust manhattan msg.json");	
 		System.out.println("stop");

@@ -1,0 +1,59 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"header": {
+			"type": "object",
+			"properties": {
+				"googleMsgId": {
+					"type": "string"
+				},
+				"facilityCode": {
+					"type": "string"
+				},
+				"poNbr": {
+					"type": "string"
+				},
+				"warehouse": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"googleMsgId",
+				"facilityCode",
+				"poNbr",
+				"warehouse"
+			]
+		},
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"poLineNbr": {
+						"type": "string"
+					},
+					"itemCode": {
+						"type": "string"
+					},
+					"manhattanQty": {
+						"type": "string"
+					},
+					"awgQty": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"poLineNbr",
+					"itemCode",
+					"manhattanQty",
+					"awgQty"
+				]
+			}
+		}
+	},
+	"required": [
+		"header",
+		"items"
+	]
+}

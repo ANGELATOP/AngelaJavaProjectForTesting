@@ -1,0 +1,29 @@
+{
+	"header": {
+		"googleMsgId": "abc",
+		"facilityCode": "KC",
+		"poNbr": "65217",
+		"warehouse": "KC"
+	},
+		"items": [
+			{
+				"poLineNbr": "001",
+				"itemCode": "0010880",
+				"manhattanQty": "84",
+				"awgQty": "84"
+			},
+			{
+				"poLineNbr": "002",
+				"itemCode": "0010880",
+				"manhattanQty": "84",
+				"awgQty": "84"
+			},
+			{
+				"poLineNbr": "003",
+				"itemCode": "0010880",
+				"manhattanQty": "84",
+				"awgQty": "84"
+			}
+		]
+	
+}
