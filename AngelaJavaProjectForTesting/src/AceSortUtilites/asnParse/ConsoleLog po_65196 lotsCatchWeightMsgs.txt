@@ -1,0 +1,160 @@
+
+
+CatchWeight_ITEM_Level   ItemId: 0213477   UnitsShipped: 0         (poLineQty) UnitsReceived: 20.0      poNbr: 65196  SequenceNumber: 67   AttributeName: CATCH_WEIGHT   AttributeValue: 298.328           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0213477   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 5                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0213477   UnitsShipped: 0         (poLineQty) UnitsReceived: 80.0      poNbr: 65196  SequenceNumber: 103  AttributeName: CATCH_WEIGHT   AttributeValue: 1193.312          AttributeUom: lb   ReceiptVariance: Y    
+
+
+
+
+CatchWeight_ITEM_Level   ItemId: 0017302   UnitsShipped: 15.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 94                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0017302   UnitsShipped: 0         (poLineQty) UnitsReceived: 15.0      poNbr: 65196  SequenceNumber: 21   AttributeName: CATCH_WEIGHT   AttributeValue: 91                AttributeUom: lb   ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0018367   UnitsShipped: 0         (poLineQty) UnitsReceived: 6.0       poNbr: 65196  SequenceNumber: 76   AttributeName: CATCH_WEIGHT   AttributeValue: 189.3             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0018367   UnitsShipped: 6.0       (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 45                                                                                      ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0036301   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 70   AttributeName: CATCH_WEIGHT   AttributeValue: 93.48             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0036301   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 24                                                                                      ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0041252   UnitsShipped: 0         (poLineQty) UnitsReceived: 30.0      poNbr: 65196  SequenceNumber: 82   AttributeName: CATCH_WEIGHT   AttributeValue: 380.75            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0041252   UnitsShipped: 30.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 52                                                                                      ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0199208   UnitsShipped: 0         (poLineQty) UnitsReceived: 100.0     poNbr: 65196  SequenceNumber: 75   AttributeName: CATCH_WEIGHT   AttributeValue: 1661.12           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199208   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 22                                                                                      ReceiptVariance: Y    
+
+
+CatchWeight_ITEM_Level   ItemId: 0199240   UnitsShipped: 0         (poLineQty) UnitsReceived: 100.0     poNbr: 65196  SequenceNumber: 84   AttributeName: CATCH_WEIGHT   AttributeValue: 1628.74           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199240   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 47                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199265   UnitsShipped: 0         (poLineQty) UnitsReceived: 100.0     poNbr: 65196  SequenceNumber: 51   AttributeName: CATCH_WEIGHT   AttributeValue: 1868.334          AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199265   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 40                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199281   UnitsShipped: 50.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 98                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0199281   UnitsShipped: 0         (poLineQty) UnitsReceived: 50.0      poNbr: 65196  SequenceNumber: 92   AttributeName: CATCH_WEIGHT   AttributeValue: 777.15            AttributeUom: lb   ReceiptVariance: Y    
+
+
+
+
+CatchWeight_ITEM_Level   ItemId: 0287953   UnitsShipped: 0         (poLineQty) UnitsReceived: 100.0     poNbr: 65196  SequenceNumber: 59   AttributeName: CATCH_WEIGHT   AttributeValue: 1690.490          AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0287953   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 33                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0293720   UnitsShipped: 50.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 90                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0293720   UnitsShipped: 0         (poLineQty) UnitsReceived: 50.0      poNbr: 65196  SequenceNumber: 46   AttributeName: CATCH_WEIGHT   AttributeValue: 908.35            AttributeUom: lb   ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0298763   UnitsShipped: 0         (poLineQty) UnitsReceived: 63.0      poNbr: 65196  SequenceNumber: 44   AttributeName: CATCH_WEIGHT   AttributeValue: 1787.000000000    AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0298763   UnitsShipped: 63.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 26                                                                                      ReceiptVariance: Y    
+
+
+CatchWeight_ITEM_Level   ItemId: 0298764   UnitsShipped: 45.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 63                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0298764   UnitsShipped: 0         (poLineQty) UnitsReceived: 45.0      poNbr: 65196  SequenceNumber: 30   AttributeName: CATCH_WEIGHT   AttributeValue: 1271.55           AttributeUom: lb   ReceiptVariance: Y    
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+CatchWeight_ITEM_Level   ItemId: 0591248   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 91                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0591248   UnitsShipped: 0         (poLineQty) UnitsReceived: 32.0      poNbr: 65196  SequenceNumber: 42   AttributeName: CATCH_WEIGHT   AttributeValue: 581.902222222     AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0591248   UnitsShipped: 0         (poLineQty) UnitsReceived: 68.0      poNbr: 65196  SequenceNumber: 28   AttributeName: CATCH_WEIGHT   AttributeValue: 1236.542222222    AttributeUom: lb   ReceiptVariance: Y    
+
+ITEM_Level               ItemId: 0591248   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 7                                                                                       ReceiptVariance: Y    
+ITEM_Level               ItemId: 0591248   UnitsShipped: 0         (poLineQty) UnitsReceived: 32.0      poNbr: 65196  SequenceNumber: 5    AttributeName: CATCH_WEIGHT   AttributeValue: 581.902222222     AttributeUom: lb   ReceiptVariance: Y    
+ITEM_Level               ItemId: 0591248   UnitsShipped: 0         (poLineQty) UnitsReceived: 68.0      poNbr: 65196  SequenceNumber: 2    AttributeName: CATCH_WEIGHT   AttributeValue: 1236.542222222    AttributeUom: lb   ReceiptVariance: Y    
+
+LPN_Level                ItemId: 0591248   UnitsShipped: 26.0      (poLineQty) UnitsReceived: 36.0      poNbr: 65196  SequenceNumber: 1    AttributeName: CATCH_WEIGHT   AttributeValue: 654.64            AttributeUom: lb   ReceiptVariance: Y    
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CatchWeight_ITEM_Level   ItemId: 0320218   UnitsShipped: 0         (poLineQty) UnitsReceived: 160.0     poNbr: 65196  SequenceNumber: 95   AttributeName: CATCH_WEIGHT   AttributeValue: 2829.64           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0320218   UnitsShipped: 160.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 93                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0321469   UnitsShipped: 20.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 99                                                                                      ReceiptVariance: Y    
+ITEM_Level               ItemId: 0321469   UnitsShipped: 20.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 8                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0368536   UnitsShipped: 13.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 97                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0368536   UnitsShipped: 0         (poLineQty) UnitsReceived: 13.0      poNbr: 65196  SequenceNumber: 104  AttributeName: CATCH_WEIGHT   AttributeValue: 91                AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0368537   UnitsShipped: 13.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 78                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0368537   UnitsShipped: 0         (poLineQty) UnitsReceived: 13.0      poNbr: 65196  SequenceNumber: 101  AttributeName: CATCH_WEIGHT   AttributeValue: 91                AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0368538   UnitsShipped: 13.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 49                                                                                      ReceiptVariance: Y    
+ITEM_Level               ItemId: 0368538   UnitsShipped: 13.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 6                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0370542   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 71                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0370542   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 61   AttributeName: CATCH_WEIGHT   AttributeValue: 90.02             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0376186   UnitsShipped: 8.0       (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 87                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0376186   UnitsShipped: 0         (poLineQty) UnitsReceived: 8.0       poNbr: 65196  SequenceNumber: 57   AttributeName: CATCH_WEIGHT   AttributeValue: 143.8             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390730   UnitsShipped: 0         (poLineQty) UnitsReceived: 36.0      poNbr: 65196  SequenceNumber: 80   AttributeName: CATCH_WEIGHT   AttributeValue: 556.3             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390730   UnitsShipped: 36.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 25                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390737   UnitsShipped: 0         (poLineQty) UnitsReceived: 28.0      poNbr: 65196  SequenceNumber: 72   AttributeName: CATCH_WEIGHT   AttributeValue: 175.56            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390737   UnitsShipped: 28.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 62                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390738   UnitsShipped: 30.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 85                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390738   UnitsShipped: 0         (poLineQty) UnitsReceived: 30.0      poNbr: 65196  SequenceNumber: 73   AttributeName: CATCH_WEIGHT   AttributeValue: 184.24            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390739   UnitsShipped: 0         (poLineQty) UnitsReceived: 15.0      poNbr: 65196  SequenceNumber: 74   AttributeName: CATCH_WEIGHT   AttributeValue: 88.45             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390739   UnitsShipped: 15.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 23                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390740   UnitsShipped: 0         (poLineQty) UnitsReceived: 30.0      poNbr: 65196  SequenceNumber: 81   AttributeName: CATCH_WEIGHT   AttributeValue: 196.99            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390740   UnitsShipped: 30.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 54                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390741   UnitsShipped: 0         (poLineQty) UnitsReceived: 42.0      poNbr: 65196  SequenceNumber: 38   AttributeName: CATCH_WEIGHT   AttributeValue: 255.161           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0390741   UnitsShipped: 42.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 36                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0472167   UnitsShipped: 0         (poLineQty) UnitsReceived: 20.0      poNbr: 65196  SequenceNumber: 50   AttributeName: CATCH_WEIGHT   AttributeValue: 220.54            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0472167   UnitsShipped: 20.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 17                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0481317   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 86                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0481317   UnitsShipped: 0         (poLineQty) UnitsReceived: 90.0      poNbr: 65196  SequenceNumber: 105  AttributeName: CATCH_WEIGHT   AttributeValue: 1064.16           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0491415   UnitsShipped: 0         (poLineQty) UnitsReceived: 20.0      poNbr: 65196  SequenceNumber: 83   AttributeName: CATCH_WEIGHT   AttributeValue: 200.18            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0491415   UnitsShipped: 20.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 3                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0532534   UnitsShipped: 40.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 9                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0532534   UnitsShipped: 0         (poLineQty) UnitsReceived: 40.0      poNbr: 65196  SequenceNumber: 32   AttributeName: CATCH_WEIGHT   AttributeValue: 746.6             AttributeUom: lb   ReceiptVariance: Y    
+
+
+
+
+CatchWeight_ITEM_Level   ItemId: 0591255   UnitsShipped: 0         (poLineQty) UnitsReceived: 50.0      poNbr: 65196  SequenceNumber: 56   AttributeName: CATCH_WEIGHT   AttributeValue: 785.380           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0591255   UnitsShipped: 50.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 14                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592253   UnitsShipped: 0         (poLineQty) UnitsReceived: 70.0      poNbr: 65196  SequenceNumber: 89   AttributeName: CATCH_WEIGHT   AttributeValue: 733.179           AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592253   UnitsShipped: 70.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 10                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592303   UnitsShipped: 0         (poLineQty) UnitsReceived: 20.0      poNbr: 65196  SequenceNumber: 53   AttributeName: CATCH_WEIGHT   AttributeValue: 170.8             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592303   UnitsShipped: 20.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 34                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592311   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 15   AttributeName: CATCH_WEIGHT   AttributeValue: 72.7              AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592311   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 100                                                                                     ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592337   UnitsShipped: 40.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 48                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592337   UnitsShipped: 0         (poLineQty) UnitsReceived: 40.0      poNbr: 65196  SequenceNumber: 16   AttributeName: CATCH_WEIGHT   AttributeValue: 340.7             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592345   UnitsShipped: 0         (poLineQty) UnitsReceived: 24.0      poNbr: 65196  SequenceNumber: 77   AttributeName: CATCH_WEIGHT   AttributeValue: 284.96            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592345   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 11                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592360   UnitsShipped: 6.0       (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 79                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592360   UnitsShipped: 0         (poLineQty) UnitsReceived: 6.0       poNbr: 65196  SequenceNumber: 35   AttributeName: CATCH_WEIGHT   AttributeValue: 74.32             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592410   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 88   AttributeName: CATCH_WEIGHT   AttributeValue: 202               AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592410   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 69                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592568   UnitsShipped: 0         (poLineQty) UnitsReceived: 30.0      poNbr: 65196  SequenceNumber: 8    AttributeName: CATCH_WEIGHT   AttributeValue: 443.2             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592568   UnitsShipped: 30.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 7                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592576   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 96                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592576   UnitsShipped: 0         (poLineQty) UnitsReceived: 90.0      poNbr: 65196  SequenceNumber: 29   AttributeName: CATCH_WEIGHT   AttributeValue: 1576.956000000    AttributeUom: lb   ReceiptVariance: Y    
+
+
+CatchWeight_ITEM_Level   ItemId: 0592584   UnitsShipped: 0         (poLineQty) UnitsReceived: 70.0      poNbr: 65196  SequenceNumber: 41   AttributeName: CATCH_WEIGHT   AttributeValue: 988.44375         AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0592584   UnitsShipped: 80.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 39                                                                                      ReceiptVariance: Y    
+ITEM_Level               ItemId: 0592584   UnitsShipped: 0         (poLineQty) UnitsReceived: 70.0      poNbr: 65196  SequenceNumber: 4    AttributeName: CATCH_WEIGHT   AttributeValue: 988.44375         AttributeUom: lb   ReceiptVariance: Y    
+ITEM_Level               ItemId: 0592584   UnitsShipped: 80.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 3                                                                                       ReceiptVariance: Y    
+LPN_Level                ItemId: 0592584   UnitsShipped: 80.0      (poLineQty) UnitsReceived: 70.0      poNbr: 65196  SequenceNumber: 2    AttributeName: CATCH_WEIGHT   AttributeValue: 988.44375         AttributeUom: lb   ReceiptVariance: Y    
+
+
+
+
+
+CatchWeight_ITEM_Level   ItemId: 0593053   UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 4                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0593053   UnitsShipped: 0         (poLineQty) UnitsReceived: 100.0     poNbr: 65196  SequenceNumber: 13   AttributeName: CATCH_WEIGHT   AttributeValue: 1737.150          AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0595298   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 55                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0595298   UnitsShipped: 0         (poLineQty) UnitsReceived: 90.0      poNbr: 65196  SequenceNumber: 43   AttributeName: CATCH_WEIGHT   AttributeValue: 1581.755000000    AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596254   UnitsShipped: 45.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 66                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596254   UnitsShipped: 0         (poLineQty) UnitsReceived: 45.0      poNbr: 65196  SequenceNumber: 64   AttributeName: CATCH_WEIGHT   AttributeValue: 1149.5            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596452   UnitsShipped: 0         (poLineQty) UnitsReceived: 54.0      poNbr: 65196  SequenceNumber: 60   AttributeName: CATCH_WEIGHT   AttributeValue: 1389.1            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596452   UnitsShipped: 54.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 6                                                                                       ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596460   UnitsShipped: 0         (poLineQty) UnitsReceived: 110.0     poNbr: 65196  SequenceNumber: 37   AttributeName: CATCH_WEIGHT   AttributeValue: 1622.664          AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596460   UnitsShipped: 110.0     (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 18                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596536   UnitsShipped: 11.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 68                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0596536   UnitsShipped: 0         (poLineQty) UnitsReceived: 11.0      poNbr: 65196  SequenceNumber: 19   AttributeName: CATCH_WEIGHT   AttributeValue: 157.3             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0654046   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 12   AttributeName: CATCH_WEIGHT   AttributeValue: 185.54            AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0654046   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 102                                                                                     ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0730548   UnitsShipped: 0         (poLineQty) UnitsReceived: 40.0      poNbr: 65196  SequenceNumber: 31   AttributeName: CATCH_WEIGHT   AttributeValue: 817.2             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0730548   UnitsShipped: 40.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 106                                                                                     ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0730549   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 58   AttributeName: CATCH_WEIGHT   AttributeValue: 97.95             AttributeUom: lb   ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0730549   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 20                                                                                      ReceiptVariance: Y    
+
+CatchWeight_ITEM_Level   ItemId: 0753157   UnitsShipped: 10.0      (poLineQty) UnitsReceived: 0         poNbr: 65196  SequenceNumber: 65                                                                                      ReceiptVariance: Y    
+CatchWeight_ITEM_Level   ItemId: 0753157   UnitsShipped: 0         (poLineQty) UnitsReceived: 10.0      poNbr: 65196  SequenceNumber: 27   AttributeName: CATCH_WEIGHT   AttributeValue: 109.98            AttributeUom: lb   ReceiptVariance: Y    
+
+
+ASN_Level                                  UnitsShipped: 2546.0000 (poLineQty) UnitsReceived: 2513.0000 poNbr: 65196  SequenceNumber: 4                                                                                       ReceiptVariance: Y    

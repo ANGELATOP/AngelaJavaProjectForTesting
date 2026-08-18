@@ -1,0 +1,86 @@
+
+*LPN_Level                ItemId: 0028134*  UnitsShipped: 12.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 13                                                                                      
+*ITEM_Level               ItemId: 0028134*  UnitsShipped: 96.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 16                                                                                      
+*LPN_Level                ItemId: 0028134*  UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 2                                                                                       
+
+*ITEM_Level               ItemId: 0041986*  UnitsShipped: 28.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 20                                                                                      
+
+*ITEM_Level               ItemId: 0575064*  UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 5                                                                                       
+
+*LPN_Level                ItemId: 0575061*  UnitsShipped: 54.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 6                                                                                       
+
+*ITEM_Level               ItemId: 0575071*  UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 8                                                                                       
+
+*LPN_Level                ItemId: 0028134*  UnitsShipped: 0.0       (poLineQty) UnitsReceived: 36.0      poNbr: 65217  SequenceNumber: 4                                                                                       
+
+*LPN_Level                ItemId: 0575061*  UnitsShipped: 0.0       (poLineQty) UnitsReceived: 54.0      poNbr: 65217  SequenceNumber: 16                                                                                      
+
+*ITEM_Level               ItemId: 0563316*  UnitsShipped: 200.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 11                                                                                      
+
+*ITEM_Level               ItemId: 0105989*  UnitsShipped: 180.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 12                                                                                      
+
+*ITEM_Level               ItemId: 0557330*  UnitsShipped: 200.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 13                                                                                      
+
+*ITEM_Level               ItemId: 0563269*  UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 18                                                                                      
+
+*ITEM_Level               ItemId: 0563298*  UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 2                                                                                       
+
+*ITEM_Level               ItemId: 0028131*  UnitsShipped: 100.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 4                                                                                       
+
+*ITEM_Level               ItemId: 0575061*  UnitsShipped: 144.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 10                                                                                      
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-- items with qty issues
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+0028131
+0028134
+0041986
+0105989
+0557330
+0563269
+0563298
+0563316
+0575061
+0575064
+0575071
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+ITEM_Level               ItemId: 0010880   UnitsShipped: 144.0     (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 7                                                                                       
+LPN_Level                ItemId: 0010880   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 60.0      poNbr: 65217  SequenceNumber: 9                                                                                       
+LPN_Level                ItemId: 0010880   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 8                                                                                       
+LPN_Level                ItemId: 0010880   UnitsShipped: 36.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 3                                                                                       
+LPN_Level                ItemId: 0010880   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 24.0      poNbr: 65217  SequenceNumber: 15                                                                                      
+
+ITEM_Level               ItemId: 0010900   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 14                                                                                      
+LPN_Level                ItemId: 0010900   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 14                                                                                      
+LPN_Level                ItemId: 0010900   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 24.0      poNbr: 65217  SequenceNumber: 1                                                                                       
+
+ITEM_Level               ItemId: 0369460   UnitsShipped: 56.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 3                                                                                       
+LPN_Level                ItemId: 0369460   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 56.0      poNbr: 65217  SequenceNumber: 26                                                                                      
+LPN_Level                ItemId: 0369460   UnitsShipped: 56.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 25                                                                                      
+
+ITEM_Level               ItemId: 0369465   UnitsShipped: 28.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 15                                                                                      
+LPN_Level                ItemId: 0369465   UnitsShipped: 28.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 24                                                                                      
+LPN_Level                ItemId: 0369465   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 28.0      poNbr: 65217  SequenceNumber: 18                                                                                      
+
+ITEM_Level               ItemId: 0490015   UnitsShipped: 63.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 21                                                                                      
+LPN_Level                ItemId: 0490015   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 21.0      poNbr: 65217  SequenceNumber: 23                                                                                      
+LPN_Level                ItemId: 0490015   UnitsShipped: 63.0      (poLineQty) UnitsReceived: 42.0      poNbr: 65217  SequenceNumber: 17                                                                                      
+ITEM_Level               ItemId: 0554676   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 6                                                                                       
+LPN_Level                ItemId: 0554676   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 24.0      poNbr: 65217  SequenceNumber: 7                                                                                       
+LPN_Level                ItemId: 0554676   UnitsShipped: 24.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 12                                                                                      
+
+ITEM_Level               ItemId: 0575074   UnitsShipped: 72.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 17                                                                                      
+LPN_Level                ItemId: 0575074   UnitsShipped: 72.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 21                                                                                      
+LPN_Level                ItemId: 0575074   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 72.0      poNbr: 65217  SequenceNumber: 19                                                                                      
+ITEM_Level               ItemId: 0575075   UnitsShipped: 54.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 19                                                                                      
+LPN_Level                ItemId: 0575075   UnitsShipped: 36.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 5                                                                                       
+LPN_Level                ItemId: 0575075   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 54.0      poNbr: 65217  SequenceNumber: 22                                                                                      
+LPN_Level                ItemId: 0575075   UnitsShipped: 18.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 20                                                                                      
+ITEM_Level               ItemId: 0575087   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 0         poNbr: 65217  SequenceNumber: 9                                                                                       
+LPN_Level                ItemId: 0575087   UnitsShipped: 90.0      (poLineQty) UnitsReceived: 72.0      poNbr: 65217  SequenceNumber: 11                                                                                      
+LPN_Level                ItemId: 0575087   UnitsShipped: 0.0       (poLineQty) UnitsReceived: 18.0      poNbr: 65217  SequenceNumber: 10                                                                                      
+ASN_Level                                  UnitsShipped: 1883.0000 (poLineQty) UnitsReceived: 1883.0000 poNbr: 65217  SequenceNumber: 3                                                                                       
