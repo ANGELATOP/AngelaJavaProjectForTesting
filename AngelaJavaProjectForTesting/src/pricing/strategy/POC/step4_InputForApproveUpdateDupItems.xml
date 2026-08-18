@@ -1,0 +1,47 @@
+<Explode anyItems="yes" explodeEffectiveDate="2026-08-14"	explodeFromSeq="1" explodeToSeq="500" explodeUserid="toppins"	uploadKey="100000304">
+	<ExplodeItems>
+		<ExplodeItem explodeItemCode="0010164" />
+		<ExplodeItem explodeItemCode="0010440" />
+		<ExplodeItem explodeItemCode="0010257" />
+		<ExplodeItem explodeItemCode="0010259" />
+		<ExplodeItem explodeItemCode="0010012" />
+		<ExplodeItem explodeItemCode="0010159" />
+		<ExplodeItem explodeItemCode="0010123" />
+		<ExplodeItem explodeItemCode="0010358" />
+		<ExplodeItem explodeItemCode="0010041" />
+		<ExplodeItem explodeItemCode="0010285" />
+		<ExplodeItem explodeItemCode="0010190" />
+		<ExplodeItem explodeItemCode="0011949" />
+		<ExplodeItem explodeItemCode="0010485" />
+		<ExplodeItem explodeItemCode="0010521" />
+		<ExplodeItem explodeItemCode="0010238" />
+		<ExplodeItem explodeItemCode="0011395" />
+		<ExplodeItem explodeItemCode="0010353" />
+		<ExplodeItem explodeItemCode="0010617" />
+		<ExplodeItem explodeItemCode="0011496" />
+		<ExplodeItem explodeItemCode="0010570" />
+		<ExplodeItem explodeItemCode="0010144" />
+		<ExplodeItem explodeItemCode="0012375" />
+		<ExplodeItem explodeItemCode="0012395" />
+		<ExplodeItem explodeItemCode="0011388" />
+		<ExplodeItem explodeItemCode="0011135" />
+		<ExplodeItem explodeItemCode="0010196" />
+		<ExplodeItem explodeItemCode="0010157" />
+		<ExplodeItem explodeItemCode="0010298" />
+		<ExplodeItem explodeItemCode="0012369" />
+		<ExplodeItem explodeItemCode="0010181" />
+		<ExplodeItem explodeItemCode="0010013" />
+	</ExplodeItems>
+	<Facilities>
+		<Facility fcltyNbr="00" />
+		<Facility fcltyNbr="01" />
+		<Facility fcltyNbr="03" />
+		<Facility fcltyNbr="05" />
+		<Facility fcltyNbr="06" />
+		<Facility fcltyNbr="11" />
+		<Facility fcltyNbr="12" />
+		<Facility fcltyNbr="14" />
+		<Facility fcltyNbr="16" />
+	</Facilities>
+</Explode>
+
