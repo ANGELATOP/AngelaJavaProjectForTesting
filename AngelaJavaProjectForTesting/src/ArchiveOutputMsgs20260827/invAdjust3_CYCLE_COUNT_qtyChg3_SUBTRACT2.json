@@ -1,0 +1,90 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "CYCLE_COUNT",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0221318",
+				"Description": "ZATJALPCHDRCRNBRD12.5Z"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2027-07-31",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "josh.park@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "1.0",
+				"Quantity": "1.0",
+				"AdjustedWeight": "5.46",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "",
+				"LocationId": "G19032",
+				"ReasonCodeId": "P",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "SUBTRACT",
+				"AdjustedType": "SUBTRACT",
+				"AdjustedWeightType": "SUBTRACT",
+				"CreatedTimestamp": "2026-08-20T08:46:22.166",
+				"UpdatedTimestamp": "2026-08-20T08:48:24.985",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-20T08:46:21.841"
+			},
+			"TransactionNumber": "7872155821664828042",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-08-20T08:46:21.841",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "63e1ce6e-59fb-44eb-b4fe-12ad4cb3262e"
+}

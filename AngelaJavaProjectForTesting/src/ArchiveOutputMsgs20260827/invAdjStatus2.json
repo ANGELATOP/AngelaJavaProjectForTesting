@@ -1,0 +1,110 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustmentWithoutBucketChange",
+			"Description": "SingleInventoryAdjustment(WithoutBucketChange)PIXforHostInventorychanges",
+			"SourceTransactionType": "REMOVED_CONDITION_CODE",
+			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0409201",
+				"Description": "DANACTIVIALTSTR416OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-09-01",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "jrodriquez@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "31.0",
+				"Quantity": "31.0",
+				"AdjustedWeight": "204.786",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "",
+				"LocationId": "",
+				"ReasonCodeId": "",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:55.215",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:55.215",
+								"Messages": null,
+								"ConditionCodeId": "V",
+								"Description": "VendorHold",
+								"InventoryUnavailable": false,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-08-25T15:18:41.058",
+				"UpdatedTimestamp": "2026-08-25T15:19:29.677",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-25T15:18:39.830"
+			},
+			"TransactionNumber": "7876711210579638495",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-08-25T15:18:39.830",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "f6c81b06-364d-4959-9255-facc1656c784"
+}

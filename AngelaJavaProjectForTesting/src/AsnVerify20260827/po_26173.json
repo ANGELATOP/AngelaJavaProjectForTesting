@@ -1,0 +1,49 @@
+{
+	"googleMsgID": "2671109319135936261724954830801356",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"IsCustomerOrderBlindReturn": "false",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "ruth.turner@awginc.com",
+				"AsnId": "00012617320260805121307",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "20",
+				"iLPNsReceived": "20",
+				"UnitsShipped": "1937.0000",
+				"UnitsReceived": "1937.0000",
+				"CreatedTimestamp": "2026-08-25T13:03:41.296",
+				"UpdatedTimestamp": "2026-08-25T13:05:48.924",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-25T13:03:41.223"
+			},
+			"TransactionNumber": "7876630212332378909",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-08-25T13:03:41.223",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "b6e8c1ed-f527-42eb-9c71-ea144f3e7896",
+	"TotalPages": 1
+}

@@ -1,0 +1,49 @@
+{
+	"googleMsgID": "75721222866212302423478887073754119",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"IsCustomerOrderBlindReturn": "false",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "heather.kirby@awginc.com",
+				"AsnId": "00012073120260729101347",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "19",
+				"iLPNsReceived": "19",
+				"UnitsShipped": "19.0000",
+				"UnitsReceived": "19.0000",
+				"CreatedTimestamp": "2026-08-25T07:50:43.070",
+				"UpdatedTimestamp": "2026-08-25T07:52:56.493",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-25T07:50:42.968"
+			},
+			"TransactionNumber": "7876442429818221855",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-08-25T07:50:42.968",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "b7861191-2de7-4141-a3d4-ff7eee2ddc6e",
+	"TotalPages": 1
+}

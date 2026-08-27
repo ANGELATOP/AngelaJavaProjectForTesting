@@ -1,0 +1,130 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "MODIFY_ILPN",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0371252",
+				"Description": "BSTCHCRSHREDPEPR1.75OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "megan.bauer@awginc.com",
+				"FromInventoryBucket": "UNAVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "1.0",
+				"Quantity": "1.0",
+				"AdjustedWeight": "2.158",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "V03336614",
+				"LocationId": "ADJB1DISCOUNTZ",
+				"ReasonCodeId": "Z",
+				"ReferenceText": "V03336614",
+				"SecondaryReferenceText": "ADJB1DISCOUNTZ",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "DamagedProduct",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.756",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.756",
+								"Messages": null,
+								"ConditionCodeId": "D",
+								"Description": "DamagedProduct",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "SUBTRACT",
+				"AdjustedType": "SUBTRACT",
+				"AdjustedWeightType": "SUBTRACT",
+				"CreatedTimestamp": "2026-08-25T08:13:46.563",
+				"UpdatedTimestamp": "2026-08-25T08:14:16.485",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-25T08:13:44.516"
+			},
+			"TransactionNumber": "7876456217883963468",
+			"SequenceNumber": 11,
+			"TransactionDateTime": "2026-08-25T08:13:44.516",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "d90fa8a5-5bf0-4dd8-b740-0e1fadd236ae"
+}

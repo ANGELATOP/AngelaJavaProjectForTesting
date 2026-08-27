@@ -1,0 +1,110 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustmentWithoutBucketChange",
+			"Description": "SingleInventoryAdjustment(WithoutBucketChange)PIXforHostInventorychanges",
+			"SourceTransactionType": "REMOVED_CONDITION_CODE",
+			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0598854",
+				"Description": "ORGANICDOLEBANANASLB"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "2026-08-16",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "salvarado@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "48.0",
+				"Quantity": "48.0",
+				"AdjustedWeight": "2136.0",
+				"AsnId": "00024977820260803101826",
+				"AsnStatus": "8000",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000055026",
+				"LocationId": "P11822R",
+				"ReasonCodeId": "",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "manh-copy-profile-user@system",
+								"CreatedTimestamp": "2026-03-20T19:45:09.051",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.24",
+								"Messages": null,
+								"ConditionCodeId": "IH",
+								"Description": "IncubationHeldLockCode",
+								"InventoryUnavailable": false,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-08-20T14:03:34.219",
+				"UpdatedTimestamp": "2026-08-20T14:04:06.538",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-20T14:03:34.156"
+			},
+			"TransactionNumber": "7872346142194072304",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-08-20T14:03:34.156",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "5cf307b6-ac87-4854-a41c-550d38705059"
+}

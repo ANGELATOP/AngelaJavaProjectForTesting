@@ -1,0 +1,130 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0495816",
+				"Description": "DAVBTRSCTPCNDOUGH1.5OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "megan.bauer@awginc.com",
+				"FromInventoryBucket": "UNAVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "1",
+				"Quantity": "1",
+				"AdjustedWeight": "21.0",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "L00044277084",
+				"LocationId": "F21581E",
+				"ReasonCodeId": "P",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.959",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.959",
+								"Messages": null,
+								"ConditionCodeId": "L",
+								"Description": "LostUnbillableInventory",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "system-msg-user@System",
+								"CreatedTimestamp": "2026-03-24T19:41:54.959",
+								"UpdatedBy": "system-msg-user@System",
+								"UpdatedTimestamp": "2026-03-24T19:41:54.959",
+								"Messages": null,
+								"ConditionCodeId": "L",
+								"Description": "LostUnbillableInventory",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					}
+				],
+				"InventoryAdjustmentType": "SUBTRACT",
+				"AdjustedType": "SUBTRACT",
+				"AdjustedWeightType": "SUBTRACT",
+				"CreatedTimestamp": "2026-08-20T09:41:30.454",
+				"UpdatedTimestamp": "2026-08-20T09:43:15.253",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-08-20T09:41:30.130"
+			},
+			"TransactionNumber": "7872188901188843152",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-08-20T09:41:30.130",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "396f50dc-674f-4776-9815-a700a301776f"
+}
