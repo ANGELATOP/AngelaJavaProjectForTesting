@@ -1,0 +1,8 @@
+poNbr: 66375  |LPN_Level                |ItemId: 0032482   |UnitsShipped: 30.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0040387   |UnitsShipped: 27.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0040389   |UnitsShipped: 36.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0040389   |UnitsShipped: 36.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0106290   |UnitsShipped: 26.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0340051   |UnitsShipped: 32.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0440025   |UnitsShipped: 48.0      |(poLineQty) UnitsReceived: 42.0      |                              |                                  |asnLevelId: ITEM           |
+poNbr: 66375  |LPN_Level                |ItemId: 0488027   |UnitsShipped: 28.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |

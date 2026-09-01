@@ -1,0 +1,39 @@
+
+My response in chat.
+
+@Scott Womeldorff @Erick Fauscette 
+There were 2 POs that did NOT get to SCM.  
+It error in ASN Verify due to missing ASN_Level message.  
+It's a Manhattan issue.  
+PO 22444 (8-31-2026 at 3:24am   and PO 66375 (8-31-2026 at 9:08am)
+
+atoppins: There should always be a ASN_Level message, at least that's what I have always seen.  
+Recent code change makes it even more necessary to have that summary message.
+
+Erick Fauscette, 9:20 AM
+Did they have multiple messages?
+
+atoppins: 9:21 AM
+Yes, multiple and all LPN_Level messages.
+
+atoppins: 9:51 AM
+So manhattan is sending 2 messages for the same PO?  Is that expected behavior?  One is a complete message and the other one that error is an incomplete message.
+
+atoppins: 9:55 AM
+With the recent code change last Friday, it is required to have the ASN_Level message.
+Also, is it valid to have asn verify for the same PO twice or more?
+Granted the one was bad message but I didn't realize we could have the same PO come through multiple times.
+
+Erick Fauscette, 9:57 AM
+Should not have multiple verifies
+
+Scott Womeldorff, 9:57 AM
+I don't believe so, we have a ticket opened with Manhattan on this and 
+have tried to recreate the issue in test with no success. We keep giving 
+them examples but not root cause determined yet
+
+
+
+
+
+
