@@ -1,0 +1,60 @@
+
+
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0228825   |UnitsShipped: 10.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0228825   |UnitsShipped: 10.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0228825   |UnitsShipped: 10.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526202   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0526202   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+
+
+
+
+
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0428276   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 1612.60           |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0428276   |UnitsShipped: 25.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0464230   |UnitsShipped: 100.0     |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0464230   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 100.0     |AttributeName: CATCH_WEIGHT   |AttributeValue: 3037.40           |                           |
+
+
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526228   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 30.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 471.550000000     |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526228   |UnitsShipped: 30.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526921   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 125.0     |AttributeName: CATCH_WEIGHT   |AttributeValue: 10000             |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526921   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 45.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 3600              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0526921   |UnitsShipped: 170.0     |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 10.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0526921   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |asnLevelId: ITEM           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527002   |UnitsShipped: 35.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527002   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2000              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527002   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 10.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 800               |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527010   |UnitsShipped: 30.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527010   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 30.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 1800              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527069   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 42.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2520              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527069   |UnitsShipped: 50.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0527069   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 42.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 2520              |asnLevelId: ITEM           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0527069   |UnitsShipped: 50.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0527069   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 12.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 720               |asnLevelId: ITEM           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527085   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527085   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 15.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 900               |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527218   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 50.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 3000              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0527218   |UnitsShipped: 50.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0528208   |UnitsShipped: 5.0       |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0528208   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 5.0       |AttributeName: CATCH_WEIGHT   |AttributeValue: 191.79            |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0631085   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0631085   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 5.0       |AttributeName: CATCH_WEIGHT   |AttributeValue: 300               |                           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0631085   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |ITEM_Level               |ItemId: 0631085   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 5.0       |AttributeName: CATCH_WEIGHT   |AttributeValue: 300               |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0631085   |UnitsShipped: 15.0      |(poLineQty) UnitsReceived: 5.0       |AttributeName: CATCH_WEIGHT   |AttributeValue: 300               |asnLevelId: ITEM           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0721051   |UnitsShipped: 25.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0721051   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 1477              |                           |
+poNbr: 86328  |LPN_Level                |ItemId: 0721051   |UnitsShipped: 5.0       |(poLineQty) UnitsReceived: 0         |                              |                                  |asnLevelId: ITEM           |
+poNbr: 86328  |LPN_Level                |ItemId: 0721051   |UnitsShipped: 20.0      |(poLineQty) UnitsReceived: 25.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 1477              |asnLevelId: ITEM           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0990184   |UnitsShipped: 0         |(poLineQty) UnitsReceived: 60.0      |AttributeName: CATCH_WEIGHT   |AttributeValue: 3600              |                           |
+poNbr: 86328  |CatchWeight_ITEM_Level   |ItemId: 0990184   |UnitsShipped: 60.0      |(poLineQty) UnitsReceived: 0         |                              |                                  |                           |
+poNbr: 86328  |ASN_Level                |                  |UnitsShipped: 635.0000  |(poLineQty) UnitsReceived: 592.0000  |                              |                                  |asnLevelId: ITEM           |

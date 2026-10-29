@@ -1,0 +1,119 @@
+{
+	"googleMsgID": "21117227969605656136427206943596513",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "OK",
+		"UserId": "system-msg-user@OK",
+		"UserLocale": "UTC",
+		"Location": "OK"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "VerifyASNforCatchWeightatItemLevel",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "OK",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "July1st",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0041432",
+				"Description": "BSTCHFRZHEN10\/1410-14"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "heather.davis@awginc.com",
+				"AsnSequenceNumber": "000000001",
+				"AsnLineId": "000000001",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"AsnId": "03040380420261014143057",
+				"AlternateAsnId": "",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "20",
+				"iLPNsReceived": "20",
+				"UnitsShipped": "800.0",
+				"UnitsReceived": "800.0",
+				"CreatedTimestamp": "2026-10-22T06:43:21.770",
+				"UpdatedTimestamp": "2026-10-22T06:45:04.968",
+				"UpdatedBy": "system-msg-user@OK",
+				"TransactionDateTime": "2026-10-22T06:43:21.618"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "40852.060",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "3ff21711-1559-4e61-a8bf-d5007d46adfb"
+				}
+			],
+			"TransactionNumber": "7926514016328868564",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-10-22T06:43:21.618",
+			"Organization": "OK",
+			"Facility": "OK"
+		},
+		{
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"IsCustomerOrderBlindReturn": "false",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "heather.davis@awginc.com",
+				"AsnId": "03040380420261014143057",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "20",
+				"iLPNsReceived": "20",
+				"UnitsShipped": "800.0000",
+				"UnitsReceived": "800.0000",
+				"CreatedTimestamp": "2026-10-22T06:43:21.780",
+				"UpdatedTimestamp": "2026-10-22T06:45:04.969",
+				"UpdatedBy": "system-msg-user@OK",
+				"TransactionDateTime": "2026-10-22T06:43:21.618"
+			},
+			"TransactionNumber": "7926514016328868564",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-10-22T06:43:21.618",
+			"Organization": "OK",
+			"Facility": "OK"
+		}
+	],
+	"UniqueJobId": "ac4de65b-668f-4388-a57a-ae6b02a7d507",
+	"TotalPages": 1
+}

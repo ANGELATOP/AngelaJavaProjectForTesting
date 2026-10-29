@@ -1,0 +1,17 @@
+<Explode explodeEffectiveDate="2026-10-02"
+	explodeUserid="atoppins" newZone="9960" requestType="addModifyZone"
+	uploadKey="100001728">
+	<ExplodeItems>
+		<ExplodeItem baseHouseZoneRtl="9.49"
+			explodeInputRtl="9.49" explodeItemCode="0034330"
+			explodeItemOverrideFlg="N" explodeMultiSellUnit="1" explodeSeq="1" />
+	</ExplodeItems>
+	<HouseZones>
+		<HouseZone explodeSequence="1" isBaseZone="N"
+			pricePointRtl="10.65" zone="9960" />
+	</HouseZones>
+	<Facilities>
+		<Facility fcltyCd="KC" fcltyNbr="00" fcltyNm="KANSAS CITY"
+			isItemActive="0034330" unitStoreCaseQty="8" whse="04" />
+	</Facilities>
+</Explode>

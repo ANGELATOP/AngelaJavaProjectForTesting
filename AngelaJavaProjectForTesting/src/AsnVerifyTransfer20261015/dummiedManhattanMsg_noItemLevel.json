@@ -1,0 +1,44 @@
+{
+	"googleMsgID": "20261013TestGoogleMsgId123",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "LUF",
+		"UserId": "system-msg-user@LUF",
+		"UserLocale": "UTC",
+		"Location": "LUF"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASN Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "LPN",
+				"CreatedBy": "inadmin",
+				"AsnId": "01040365920261013",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "S",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "30.0000",
+				"UnitsReceived": "30.0000",
+				"TransactionDateTime": "2026-10-13T13:00:00.001"
+			},
+			"TransactionNumber": "7456069701051551905",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-10-13T13:00:00.001",
+			"Organization": "INO",
+			"Facility": "OK"
+		}
+	],
+	"UniqueJobId": "aa213f05-2480-4378-9379-91ec0f2dc70e",
+	"TotalPages": 1
+}

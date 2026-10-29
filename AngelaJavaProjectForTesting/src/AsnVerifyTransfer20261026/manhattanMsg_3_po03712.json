@@ -1,0 +1,49 @@
+{
+	"googleMsgID": "614473279396296008205137435099995",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "OK",
+		"UserId": "system-msg-user@OK",
+		"UserLocale": "UTC",
+		"Location": "OK"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"IsCustomerOrderBlindReturn": "false",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "michael.osburn@awginc.com",
+				"AsnId": "03040371220261014161605",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "10.0000",
+				"UnitsReceived": "10.0000",
+				"CreatedTimestamp": "2026-10-16T00:19:12.193",
+				"UpdatedTimestamp": "2026-10-16T00:20:56.544",
+				"UpdatedBy": "system-msg-user@OK",
+				"TransactionDateTime": "2026-10-16T00:19:11.794"
+			},
+			"TransactionNumber": "7921099518366554390",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-10-16T00:19:11.794",
+			"Organization": "OK",
+			"Facility": "OK"
+		}
+	],
+	"UniqueJobId": "5f6457e9-6a2c-4292-a647-2ebe164c9014",
+	"TotalPages": 1
+}
