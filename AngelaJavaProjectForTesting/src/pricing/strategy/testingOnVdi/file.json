@@ -1,0 +1,90 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "OK",
+		"UserId": "system-msg-user@OK",
+		"UserLocale": "UTC",
+		"Location": "OK"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "OK",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "OK_Resync_9_10",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0215863",
+				"Description": "OKNATURALMONOCHROMEA"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "bart.cuffe@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "1",
+				"Quantity": "1",
+				"AdjustedWeight": "18.0",
+				"AsnId": "03024930220261027135730",
+				"AsnStatus": "3000",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000012156",
+				"LocationId": "SL006S1",
+				"ReasonCodeId": "R",
+				"ReferenceText": "03024930220261027135730",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "SUBTRACT",
+				"AdjustedType": "SUBTRACT",
+				"AdjustedWeightType": "SUBTRACT",
+				"CreatedTimestamp": "2026-11-11T20:45:24.564",
+				"UpdatedTimestamp": "2026-11-11T20:48:37.251",
+				"UpdatedBy": "system-msg-user@OK",
+				"TransactionDateTime": "2026-11-11T20:45:23.201"
+			},
+			"TransactionNumber": "7944299231903448678",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-11-11T20:45:23.201",
+			"Organization": "OK",
+			"Facility": "OK"
+		}
+	],
+	"UniqueJobId": "f23c147b-852e-47d0-b3cd-cea6d8810211"
+}
